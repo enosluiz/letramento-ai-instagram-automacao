@@ -1,0 +1,68 @@
+name: Post diário no Instagram (@letramento.ai)
+
+on:
+  schedule:
+    # 12:00 UTC = 09:00 no horário de Brasília (UTC-3)
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Instalar Chromium do Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Renderizar lâminas do próximo post da fila
+        run: npm run render
+
+      - name: Publicar imagens renderizadas no repositório (para servir via raw.githubusercontent.com)
+        id: publish_images
+        run: |
+          set -e
+          POST_ID=$(node -e "const q=require('./content/queue.json');const p=q.posts.find(p=>!p.published);if(!p){console.log('');process.exit(0);}console.log(p.id);")
+          if [ -z "$POST_ID" ]; then
+            echo "Nenhum post pendente. Encerrando."
+            echo "has_post=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          mkdir -p "published/$POST_ID"
+          cp -v "output/$POST_ID"/slide*.png "published/$POST_ID/"
+          git config user.name "letramento-ai-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "published/$POST_ID"
+          git commit -m "chore: publica lâminas renderizadas do post $POST_ID"
+          git push
+          echo "has_post=true" >> "$GITHUB_OUTPUT"
+
+      - name: Publicar carrossel no Instagram
+        if: steps.publish_images.outputs.has_post == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GH_REPO: ${{ github.repository }}
+        run: npm run post
+
+      - name: Commitar fila atualizada (published=true)
+        if: steps.publish_images.outputs.has_post == 'true'
+        run: |
+          git config user.name "letramento-ai-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/queue.json
+          git diff --cached --quiet || git commit -m "chore: marca post como publicado"
+          git push

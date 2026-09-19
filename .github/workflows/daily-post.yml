@@ -46,7 +46,7 @@ jobs:
           git config user.name "letramento-ai-bot"
           git config user.email "actions@users.noreply.github.com"
           git add "published/$POST_ID"
-          git commit -m "chore: publica lâminas renderizadas do post $POST_ID"
+          git diff --cached --quiet || git commit -m "chore: publica lâminas renderizadas do post $POST_ID"
           git push
           echo "has_post=true" >> "$GITHUB_OUTPUT"
 

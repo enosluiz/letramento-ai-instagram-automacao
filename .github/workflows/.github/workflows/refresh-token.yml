@@ -1,0 +1,53 @@
+name: Renovar token de acesso do Instagram
+
+# O token de longa duração do Instagram expira em ~60 dias. Este workflow
+# roda a cada 45 dias, chama o endpoint de refresh e atualiza o secret
+# IG_TOKEN automaticamente.
+#
+# Requer um secret adicional ADMIN_GH_PAT (Personal Access Token clássico
+# com escopo "repo") para que o workflow possa escrever o novo valor em
+# Settings > Secrets and variables > Actions > IG_TOKEN.
+# Sem esse secret, este workflow falha silenciosamente na etapa de update
+# e o token precisa ser renovado manualmente antes de expirar.
+
+on:
+  schedule:
+    - cron: '0 6 */45 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Renovar token junto à Graph API
+        id: refresh
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          set -e
+          RESPONSE=$(curl -sS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_TOKEN}")
+          echo "Resposta: $RESPONSE"
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const j=JSON.parse(d);if(!j.access_token){console.error('sem access_token na resposta');process.exit(1);}console.log(j.access_token);});")
+          echo "::add-mask::$NEW_TOKEN"
+          echo "new_token=$NEW_TOKEN" >> "$GITHUB_OUTPUT"
+
+      - name: Atualizar secret IG_TOKEN
+        if: ${{ env.ADMIN_GH_PAT != '' }}
+        env:
+          ADMIN_GH_PAT: ${{ secrets.ADMIN_GH_PAT }}
+          GH_TOKEN: ${{ secrets.ADMIN_GH_PAT }}
+          NEW_TOKEN: ${{ steps.refresh.outputs.new_token }}
+        run: |
+          echo "$NEW_TOKEN" | gh secret set IG_TOKEN --repo "${{ github.repository }}"
+          echo "IG_TOKEN atualizado com sucesso."
+
+      - name: Aviso se ADMIN_GH_PAT não estiver configurado
+        if: ${{ env.ADMIN_GH_PAT == '' }}
+        run: |
+          echo "::warning::ADMIN_GH_PAT não configurado. O token foi renovado junto à Meta, mas o secret IG_TOKEN NÃO foi atualizado automaticamente. Renove manualmente ou configure o secret ADMIN_GH_PAT (PAT clássico com escopo 'repo')."

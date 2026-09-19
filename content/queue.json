@@ -3,7 +3,7 @@
   "posts": [
     {
       "id": "p01",
-      "published": false,
+      "published": true,
       "tema": "Delimitação do problema de pesquisa",
       "slide1": {
         "chapeu": "METODOLOGIA",
@@ -46,10 +46,25 @@
           "Isso muda completamente a forma como você revisa a literatura depois."
         ],
         "cta": "O prompt completo está no carrossel — salva pra usar na sua próxima reunião de orientação.",
-        "legendas_tela": ["Tema ≠ problema", "Funil em 3 etapas", "Pergunta com verbo mensurável"]
+        "legendas_tela": [
+          "Tema ≠ problema",
+          "Funil em 3 etapas",
+          "Pergunta com verbo mensurável"
+        ]
       },
       "legenda": "Delimitar o problema de pesquisa é a etapa que mais consome (e mais frustra) o início do mestrado. O funil de três etapas neste carrossel não substitui a leitura da literatura — ele organiza o raciocínio antes dela.",
-      "hashtags": ["#metodologiacientifica", "#mestrado", "#pesquisaacademica", "#posgraduacao", "#letramentoemia", "#engenhariadeprompt", "#academiabrasileira", "#producaocientifica"]
+      "hashtags": [
+        "#metodologiacientifica",
+        "#mestrado",
+        "#pesquisaacademica",
+        "#posgraduacao",
+        "#letramentoemia",
+        "#engenhariadeprompt",
+        "#academiabrasileira",
+        "#producaocientifica"
+      ],
+      "published_at": "2026-09-19T23:32:38.107Z",
+      "ig_media_id": "18101852561298338"
     },
     {
       "id": "p02",
@@ -96,10 +111,23 @@
           "Isso protege sua dissertação de uma reprovação por má-fé involuntária."
         ],
         "cta": "O comando exato está no carrossel — guarda pra usar na próxima revisão de literatura.",
-        "legendas_tela": ["Alucinação bibliográfica é real", "3 passos de verificação", "IA organiza, você valida"]
+        "legendas_tela": [
+          "Alucinação bibliográfica é real",
+          "3 passos de verificação",
+          "IA organiza, você valida"
+        ]
       },
       "legenda": "Um dos riscos mais subestimados do uso de LLMs em pesquisa é a citação de fontes inexistentes. O protocolo de verificação deste carrossel é simples, mas precisa virar hábito — não checklist esporádico.",
-      "hashtags": ["#rigoracademico", "#IAgenerativa", "#revisaodeliteratura", "#mestrado", "#doutorado", "#letramentoemia", "#pesquisacientifica", "#capes"]
+      "hashtags": [
+        "#rigoracademico",
+        "#IAgenerativa",
+        "#revisaodeliteratura",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica",
+        "#capes"
+      ]
     },
     {
       "id": "p03",
@@ -146,10 +174,23 @@
           "Separar as duas coisas melhora a nota e a clareza do texto."
         ],
         "cta": "O prompt de checagem está no carrossel — usa antes da próxima submissão.",
-        "legendas_tela": ["IMRaD não é burocracia", "Checklist de 4 seções", "Dado ≠ interpretação"]
+        "legendas_tela": [
+          "IMRaD não é burocracia",
+          "Checklist de 4 seções",
+          "Dado ≠ interpretação"
+        ]
       },
       "legenda": "A estrutura IMRaD parece óbvia até você revisar seu próprio texto. O checklist deste carrossel ajuda a identificar onde resultado e discussão estão se misturando — um dos apontamentos mais recorrentes de banca.",
-      "hashtags": ["#imrad", "#escritacientifica", "#mestradoprofissional", "#metodologia", "#producaoacademica", "#letramentoemia", "#pesquisa", "#qualis"]
+      "hashtags": [
+        "#imrad",
+        "#escritacientifica",
+        "#mestradoprofissional",
+        "#metodologia",
+        "#producaoacademica",
+        "#letramentoemia",
+        "#pesquisa",
+        "#qualis"
+      ]
     },
     {
       "id": "p04",
@@ -196,10 +237,23 @@
           "Isso preserva o rigor metodológico exigido em mestrado e doutorado."
         ],
         "cta": "O prompt de apoio está no carrossel — adapta pros seus códigos.",
-        "legendas_tela": ["IA não cria categoria", "3 momentos de apoio", "Autoria analítica é sua"]
+        "legendas_tela": [
+          "IA não cria categoria",
+          "3 momentos de apoio",
+          "Autoria analítica é sua"
+        ]
       },
       "legenda": "Em pesquisa qualitativa, o maior risco do uso de IA não é o erro técnico — é a perda de autoria analítica. Este fluxo mantém a IA em um papel de apoio operacional, nunca de decisão categorial.",
-      "hashtags": ["#pesquisaqualitativa", "#analisededados", "#metodologia", "#mestrado", "#doutorado", "#letramentoemia", "#engenhariadeprompt", "#academiabrasileira"]
+      "hashtags": [
+        "#pesquisaqualitativa",
+        "#analisededados",
+        "#metodologia",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#engenhariadeprompt",
+        "#academiabrasileira"
+      ]
     },
     {
       "id": "p05",
@@ -246,10 +300,23 @@
           "A IA pode sugerir escopo, mas nunca inventar dado de Qualis — isso você confirma na Sucupira."
         ],
         "cta": "O prompt de triagem está no carrossel — usa antes da próxima submissão.",
-        "legendas_tela": ["Qualis ≠ fator de impacto", "3 critérios de checagem", "Confirme na Sucupira"]
+        "legendas_tela": [
+          "Qualis ≠ fator de impacto",
+          "3 critérios de checagem",
+          "Confirme na Sucupira"
+        ]
       },
       "legenda": "Escolher periódico é decisão estratégica, não só editorial. Este carrossel separa o que a IA pode sugerir (escopo temático) do que só a fonte oficial pode confirmar (estrato Qualis).",
-      "hashtags": ["#qualis", "#capes", "#publicacaocientifica", "#periodicos", "#mestrado", "#doutorado", "#letramentoemia", "#producaocientifica"]
+      "hashtags": [
+        "#qualis",
+        "#capes",
+        "#publicacaocientifica",
+        "#periodicos",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#producaocientifica"
+      ]
     },
     {
       "id": "p06",
@@ -296,10 +363,23 @@
           "Os três pontos mínimos deste carrossel cobrem o essencial para a submissão ao CEP."
         ],
         "cta": "O prompt de revisão está no carrossel — usa antes de submeter seu projeto.",
-        "legendas_tela": ["TCLE precisa declarar IA", "3 pontos mínimos", "Submeta ao CEP com clareza"]
+        "legendas_tela": [
+          "TCLE precisa declarar IA",
+          "3 pontos mínimos",
+          "Submeta ao CEP com clareza"
+        ]
       },
       "legenda": "A conformidade ética em pesquisas que usam IA começa no Termo de Consentimento. Este carrossel lista o mínimo que precisa estar explícito antes da submissão à Plataforma Brasil — sem substituir a orientação do seu CEP.",
-      "hashtags": ["#eticaempesquisa", "#plataformabrasil", "#CEP", "#TCLE", "#mestrado", "#doutorado", "#letramentoemia", "#pesquisacientifica"]
+      "hashtags": [
+        "#eticaempesquisa",
+        "#plataformabrasil",
+        "#CEP",
+        "#TCLE",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
     }
   ]
 }

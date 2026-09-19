@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>slide</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root{
+    --slide-bg:#0F0F0F;
+    --primary:#00C8FF;
+    --text-main:#FFFFFF;
+    --text-sec:#A0A0A0;
+    --box-bg:#141414;
+    --cta-bg:#001F2B;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{width:1080px;height:1350px;overflow:hidden;background:var(--slide-bg);}
+  body{
+    font-family:'Space Grotesk',sans-serif;
+    color:var(--text-main);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:80px 76px;
+    position:relative;
+  }
+  .brand{
+    position:absolute;
+    top:56px;left:76px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:22px;
+    color:var(--primary);
+    letter-spacing:0.5px;
+  }
+  .page{
+    position:absolute;
+    top:56px;right:76px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:22px;
+    color:var(--text-sec);
+  }
+  .chapeu{
+    font-family:'JetBrains Mono',monospace;
+    font-size:26px;
+    color:var(--primary);
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    margin-bottom:28px;
+  }
+  .titulo{
+    font-size:64px;
+    font-weight:700;
+    line-height:1.15;
+    margin-bottom:36px;
+  }
+  .texto{
+    font-size:34px;
+    line-height:1.5;
+    color:var(--text-sec);
+    font-weight:400;
+  }
+  .itens{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+  }
+  .item{
+    background:var(--box-bg);
+    border-left:5px solid var(--primary);
+    border-radius:8px;
+    padding:26px 30px;
+    font-size:30px;
+    line-height:1.4;
+  }
+  .prompt-box{
+    margin-top:24px;
+    background:var(--box-bg);
+    border:1px solid #232323;
+    border-radius:10px;
+    padding:30px 32px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:26px;
+    line-height:1.55;
+    color:var(--text-main);
+    white-space:pre-wrap;
+  }
+  .frase{
+    margin-top:28px;
+    font-size:30px;
+    line-height:1.5;
+    color:var(--primary);
+    font-style:italic;
+  }
+  .cta-box{
+    margin-top:auto;
+    background:var(--cta-bg);
+    border-radius:10px;
+    padding:34px 36px;
+    font-size:32px;
+    font-weight:500;
+    color:var(--primary);
+    text-align:center;
+  }
+  .footer{
+    position:absolute;
+    bottom:56px;left:76px;right:76px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:20px;
+    color:var(--text-sec);
+    display:flex;
+    justify-content:space-between;
+  }
+</style>
+</head>
+<body>
+  <div class="brand">LETRAMENTO.AI</div>
+  <div class="page" id="page-indicator"></div>
+
+  <div class="chapeu" id="chapeu"></div>
+  <div class="titulo" id="titulo"></div>
+  <div class="texto" id="texto"></div>
+  <div class="itens" id="itens"></div>
+  <div class="prompt-box" id="prompt" style="display:none;"></div>
+  <div class="frase" id="frase" style="display:none;"></div>
+  <div class="cta-box" id="cta" style="display:none;"></div>
+
+  <div class="footer">
+    <span>@letramento.ai</span>
+    <span>Pesquisa &amp; IA</span>
+  </div>
+
+<script>
+  // window.SLIDE_DATA é injetado pelo Playwright antes do render:
+  // { chapeu, titulo, texto, itens: [], prompt, frase, cta, pageLabel }
+  function render(d){
+    if(d.pageLabel) document.getElementById('page-indicator').textContent = d.pageLabel;
+    if(d.chapeu) document.getElementById('chapeu').textContent = d.chapeu;
+    if(d.titulo) document.getElementById('titulo').textContent = d.titulo;
+    if(d.texto) document.getElementById('texto').textContent = d.texto;
+    if(d.itens && d.itens.length){
+      const box = document.getElementById('itens');
+      box.innerHTML = '';
+      d.itens.forEach(it=>{
+        const el = document.createElement('div');
+        el.className='item';
+        el.textContent = it;
+        box.appendChild(el);
+      });
+    }
+    if(d.prompt){
+      const p = document.getElementById('prompt');
+      p.style.display='block';
+      p.textContent = d.prompt;
+    }
+    if(d.frase){
+      const f = document.getElementById('frase');
+      f.style.display='block';
+      f.textContent = d.frase;
+    }
+    if(d.cta){
+      const c = document.getElementById('cta');
+      c.style.display='block';
+      c.textContent = d.cta;
+    }
+  }
+  window.__renderSlide = render;
+</script>
+</body>
+</html>

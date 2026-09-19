@@ -1,0 +1,305 @@
+{
+  "linha_editorial": "Metodologia de pesquisa científica (mestrado e doutorado, ênfase em mestrado profissional brasileiro), engenharia de prompts aplicada à pesquisa, e rigor ético-acadêmico no uso de LLMs. Público: pós-graduandos e pesquisadores brasileiros. Referências normativas: ABNT, CAPES/Qualis, Plataforma Brasil/CEP, IMRaD.",
+  "posts": [
+    {
+      "id": "p01",
+      "published": false,
+      "tema": "Delimitação do problema de pesquisa",
+      "slide1": {
+        "chapeu": "METODOLOGIA",
+        "titulo": "Seu problema de pesquisa ainda é genérico demais",
+        "promessa": "O método para transformar um tema amplo em uma [[pergunta pesquisável]] em uma tarde."
+      },
+      "slide2": {
+        "chapeu": "O ERRO COMUM",
+        "titulo": "Tema não é problema de pesquisa",
+        "texto": "Bancas reprovam projetos que apresentam apenas um assunto de interesse, sem uma lacuna teórica ou prática identificada. Sem lacuna, não há justificativa de ineditismo."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Funil de delimitação",
+        "texto": "Reduza o tema em três etapas sucessivas, cada uma mais restrita que a anterior:",
+        "itens": [
+          "Área temática ampla (ex.: educação corporativa)",
+          "Recorte com variável e população (ex.: letramento em IA em gestores de PMEs)",
+          "Pergunta operacionalizável, com verbo mensurável"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Atue como orientador metodológico. Recebo o tema: \"[SEU TEMA]\". Aplique um funil de delimitação em 3 etapas (área, recorte, pergunta operacionalizável) e devolva 3 versões de pergunta de pesquisa, cada uma com o verbo de pesquisa explícito (comparar, mensurar, descrever, etc.)."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "O prompt [[sugere]] a pergunta; a literatura [[confirma]] a lacuna. Nenhuma das duas etapas substitui a outra."
+      },
+      "slide6": {
+        "titulo": "Leva esse método pra sua pesquisa",
+        "texto": "Segue @letramento.ai para mais protocolos de pesquisa aplicada com IA."
+      },
+      "reel": {
+        "gancho": "Se seu problema de pesquisa cabe em uma palavra, ele ainda não é um problema de pesquisa.",
+        "blocos": [
+          "Bancas rejeitam projetos por falta de delimitação, não por falta de originalidade.",
+          "O funil de três etapas força você a sair do tema genérico e chegar numa pergunta com verbo mensurável.",
+          "Isso muda completamente a forma como você revisa a literatura depois."
+        ],
+        "cta": "O prompt completo está no carrossel — salva pra usar na sua próxima reunião de orientação.",
+        "legendas_tela": ["Tema ≠ problema", "Funil em 3 etapas", "Pergunta com verbo mensurável"]
+      },
+      "legenda": "Delimitar o problema de pesquisa é a etapa que mais consome (e mais frustra) o início do mestrado. O funil de três etapas neste carrossel não substitui a leitura da literatura — ele organiza o raciocínio antes dela.",
+      "hashtags": ["#metodologiacientifica", "#mestrado", "#pesquisaacademica", "#posgraduacao", "#letramentoemia", "#engenhariadeprompt", "#academiabrasileira", "#producaocientifica"]
+    },
+    {
+      "id": "p02",
+      "published": false,
+      "tema": "Uso de LLM na revisão de literatura sem violar rigor ético",
+      "slide1": {
+        "chapeu": "RIGOR ÉTICO",
+        "titulo": "IA generativa erra referências — e a responsabilidade é sua",
+        "promessa": "O protocolo de verificação que evita citar uma fonte que [[não existe]]."
+      },
+      "slide2": {
+        "chapeu": "O RISCO",
+        "titulo": "Alucinação bibliográfica",
+        "texto": "LLMs podem gerar referências plausíveis, com autor, ano e periódico coerentes, que simplesmente não existem. Incluir uma dessas na dissertação é falha grave de rigor acadêmico, não erro de digitação."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Protocolo de verificação em 3 passos",
+        "texto": "Toda referência sugerida por IA passa por esta checagem antes de entrar no texto:",
+        "itens": [
+          "Busca do DOI ou link direto na base (Scielo, Capes, Google Scholar)",
+          "Confirmação de que o conteúdo citado corresponde ao resumo real",
+          "Registro da fonte primária no gerenciador de referências, nunca a sugestão da IA"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Resuma os principais achados sobre [TEMA] com base apenas no texto que vou colar abaixo. Não busque nem cite referências externas ao texto fornecido. Se precisar de uma lacuna que o texto não cobre, sinalize explicitamente como \"não verificado\"."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A IA [[organiza]] a leitura. Quem [[valida]] a fonte é sempre o pesquisador."
+      },
+      "slide6": {
+        "titulo": "Aplique esse protocolo hoje",
+        "texto": "Segue @letramento.ai para mais rotinas de verificação em pesquisa com IA."
+      },
+      "reel": {
+        "gancho": "Toda referência que a IA te deu, você já conferiu se ela existe de verdade?",
+        "blocos": [
+          "Modelos de linguagem geram citações plausíveis, mas nem sempre reais.",
+          "O protocolo de 3 passos transforma a IA numa ferramenta de organização, não de citação direta.",
+          "Isso protege sua dissertação de uma reprovação por má-fé involuntária."
+        ],
+        "cta": "O comando exato está no carrossel — guarda pra usar na próxima revisão de literatura.",
+        "legendas_tela": ["Alucinação bibliográfica é real", "3 passos de verificação", "IA organiza, você valida"]
+      },
+      "legenda": "Um dos riscos mais subestimados do uso de LLMs em pesquisa é a citação de fontes inexistentes. O protocolo de verificação deste carrossel é simples, mas precisa virar hábito — não checklist esporádico.",
+      "hashtags": ["#rigoracademico", "#IAgenerativa", "#revisaodeliteratura", "#mestrado", "#doutorado", "#letramentoemia", "#pesquisacientifica", "#capes"]
+    },
+    {
+      "id": "p03",
+      "published": false,
+      "tema": "Estrutura IMRaD aplicada a artigos de mestrado profissional",
+      "slide1": {
+        "chapeu": "ESTRUTURA",
+        "titulo": "Seu artigo não segue IMRaD — e isso custa pontos na banca",
+        "promessa": "Como mapear cada seção do texto para a lógica [[Introdução, Método, Resultados, Discussão]]."
+      },
+      "slide2": {
+        "chapeu": "O ERRO COMUM",
+        "titulo": "Resultados misturados com discussão",
+        "texto": "Em mestrados profissionais, é comum encontrar resultados e interpretação no mesmo parágrafo. Isso dificulta a avaliação da banca sobre o que é dado bruto e o que é sua análise."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Checklist IMRaD",
+        "texto": "Antes de submeter, confira se cada seção cumpre apenas sua função:",
+        "itens": [
+          "Introdução: problema, lacuna e objetivo — sem antecipar resultado",
+          "Método: replicável por terceiros, sem juízo de valor",
+          "Resultados: dado bruto; Discussão: interpretação e comparação com a literatura"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar um trecho do meu artigo abaixo. Identifique se o conteúdo pertence a Introdução, Método, Resultados ou Discussão segundo a lógica IMRaD, e aponte frases que misturam dado bruto com interpretação."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Resultado é [[o que foi observado]]. Discussão é [[o que isso significa]]. Nunca a mesma frase."
+      },
+      "slide6": {
+        "titulo": "Revise seu artigo com esse checklist",
+        "texto": "Segue @letramento.ai para mais estrutura aplicada à escrita científica."
+      },
+      "reel": {
+        "gancho": "Se seu resultado e sua discussão estão no mesmo parágrafo, a banca vai notar antes de você.",
+        "blocos": [
+          "IMRaD não é burocracia — é o que permite replicar e avaliar sua pesquisa.",
+          "O erro mais comum em mestrado profissional é misturar dado com interpretação.",
+          "Separar as duas coisas melhora a nota e a clareza do texto."
+        ],
+        "cta": "O prompt de checagem está no carrossel — usa antes da próxima submissão.",
+        "legendas_tela": ["IMRaD não é burocracia", "Checklist de 4 seções", "Dado ≠ interpretação"]
+      },
+      "legenda": "A estrutura IMRaD parece óbvia até você revisar seu próprio texto. O checklist deste carrossel ajuda a identificar onde resultado e discussão estão se misturando — um dos apontamentos mais recorrentes de banca.",
+      "hashtags": ["#imrad", "#escritacientifica", "#mestradoprofissional", "#metodologia", "#producaoacademica", "#letramentoemia", "#pesquisa", "#qualis"]
+    },
+    {
+      "id": "p04",
+      "published": false,
+      "tema": "Prompt de engenharia para análise de dados qualitativos",
+      "slide1": {
+        "chapeu": "ANÁLISE QUALITATIVA",
+        "titulo": "Codificar entrevistas na mão ainda é seu gargalo?",
+        "promessa": "Um fluxo de prompts para apoiar a [[codificação temática]] sem perder o controle analítico."
+      },
+      "slide2": {
+        "chapeu": "O ERRO COMUM",
+        "titulo": "Terceirizar a interpretação para a IA",
+        "texto": "Pedir que a IA \"analise\" as entrevistas e entregue categorias prontas retira do pesquisador a autoria analítica exigida em pesquisa qualitativa — e é facilmente identificável pela banca."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Fluxo de apoio, não substituição",
+        "texto": "Use a IA como assistente em três momentos distintos do processo:",
+        "itens": [
+          "Pré-codificação: identificar trechos recorrentes para você revisar",
+          "Organização: agrupar códigos que você já definiu, sem criar novos",
+          "Auditoria: apontar inconsistências entre suas próprias categorias"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar trechos de uma entrevista. Não crie categorias novas. Apenas identifique quais trechos se relacionam aos códigos que vou te passar: [LISTE SEUS CÓDIGOS]. Sinalize trechos ambíguos para eu decidir manualmente."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A categoria [[nasce]] da sua leitura teórica. A IA só [[organiza]] o que você já decidiu."
+      },
+      "slide6": {
+        "titulo": "Aplique esse fluxo na sua próxima codificação",
+        "texto": "Segue @letramento.ai para mais rotinas de pesquisa qualitativa com IA."
+      },
+      "reel": {
+        "gancho": "Pedir pra IA \"analisar\" suas entrevistas é o jeito mais rápido de perder a autoria analítica da sua pesquisa.",
+        "blocos": [
+          "Pesquisa qualitativa exige que a categorização venha do pesquisador, com base teórica.",
+          "O fluxo de 3 momentos usa a IA só para organizar o que você já decidiu.",
+          "Isso preserva o rigor metodológico exigido em mestrado e doutorado."
+        ],
+        "cta": "O prompt de apoio está no carrossel — adapta pros seus códigos.",
+        "legendas_tela": ["IA não cria categoria", "3 momentos de apoio", "Autoria analítica é sua"]
+      },
+      "legenda": "Em pesquisa qualitativa, o maior risco do uso de IA não é o erro técnico — é a perda de autoria analítica. Este fluxo mantém a IA em um papel de apoio operacional, nunca de decisão categorial.",
+      "hashtags": ["#pesquisaqualitativa", "#analisededados", "#metodologia", "#mestrado", "#doutorado", "#letramentoemia", "#engenhariadeprompt", "#academiabrasileira"]
+    },
+    {
+      "id": "p05",
+      "published": false,
+      "tema": "Diferença entre CAPES/Qualis e fator de impacto na escolha de periódico",
+      "slide1": {
+        "chapeu": "PUBLICAÇÃO",
+        "titulo": "Você está escolhendo periódico pelo critério errado?",
+        "promessa": "A diferença entre [[Qualis]] e fator de impacto — e qual pesa mais na sua defesa."
+      },
+      "slide2": {
+        "chapeu": "A CONFUSÃO COMUM",
+        "titulo": "Qualis não é fator de impacto",
+        "texto": "São sistemas de avaliação diferentes, com lógicas próprias. Escolher periódico só pelo fator de impacto internacional pode não atender aos critérios de pontuação do seu programa de pós-graduação no Brasil."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Checagem antes de submeter",
+        "texto": "Antes de escolher onde publicar, confirme na ordem:",
+        "itens": [
+          "Estrato Qualis do periódico na área de avaliação do seu programa",
+          "Escopo temático real do periódico, não apenas o título",
+          "Fator de impacto como critério complementar, não decisivo"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou te passar o título e resumo do meu artigo. Sugira 5 periódicos cujo escopo temático declarado combina com o conteúdo, sem inventar estrato Qualis ou fator de impacto — apenas aponte que essas informações precisam ser verificadas na Plataforma Sucupira."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Escopo [[combina]] primeiro. Estrato e impacto você [[confirma]] depois, na fonte oficial."
+      },
+      "slide6": {
+        "titulo": "Revise sua lista de periódicos hoje",
+        "texto": "Segue @letramento.ai para mais critérios de publicação científica."
+      },
+      "reel": {
+        "gancho": "Fator de impacto alto não significa Qualis alto na sua área — e isso muda sua estratégia de publicação.",
+        "blocos": [
+          "Os dois sistemas avaliam coisas diferentes, com pesos diferentes por programa.",
+          "O checklist de 3 passos evita que você submeta num periódico fora do escopo real.",
+          "A IA pode sugerir escopo, mas nunca inventar dado de Qualis — isso você confirma na Sucupira."
+        ],
+        "cta": "O prompt de triagem está no carrossel — usa antes da próxima submissão.",
+        "legendas_tela": ["Qualis ≠ fator de impacto", "3 critérios de checagem", "Confirme na Sucupira"]
+      },
+      "legenda": "Escolher periódico é decisão estratégica, não só editorial. Este carrossel separa o que a IA pode sugerir (escopo temático) do que só a fonte oficial pode confirmar (estrato Qualis).",
+      "hashtags": ["#qualis", "#capes", "#publicacaocientifica", "#periodicos", "#mestrado", "#doutorado", "#letramentoemia", "#producaocientifica"]
+    },
+    {
+      "id": "p06",
+      "published": false,
+      "tema": "Consentimento e Plataforma Brasil em pesquisas com uso de IA",
+      "slide1": {
+        "chapeu": "ÉTICA EM PESQUISA",
+        "titulo": "Usar IA na coleta de dados exige aprovação do CEP?",
+        "promessa": "O que muda no [[Termo de Consentimento]] quando há IA no processo de pesquisa."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Silêncio no TCLE é falha ética",
+        "texto": "Se dados de participantes passam por uma ferramenta de IA (transcrição, análise, geração de relatório), o Termo de Consentimento precisa informar isso explicitamente. Omitir é falha de conformidade com a Plataforma Brasil."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "O que declarar no TCLE",
+        "texto": "Três pontos mínimos quando IA participa da coleta ou análise:",
+        "itens": [
+          "Qual ferramenta é usada e para qual finalidade específica",
+          "Se dados são enviados a servidores externos e sob qual política de privacidade",
+          "Que a interpretação final permanece sob responsabilidade do pesquisador"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar meu Termo de Consentimento atual. Aponte se ele menciona uso de ferramentas de IA na coleta, transcrição ou análise de dados. Se não mencionar, sugira um parágrafo claro para incluir, sem inventar cláusulas legais que eu não confirmei com meu CEP."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Se a IA [[toca]] no dado do participante, o TCLE precisa [[dizer isso]]."
+      },
+      "slide6": {
+        "titulo": "Revise seu TCLE antes de submeter ao CEP",
+        "texto": "Segue @letramento.ai para mais conformidade ética em pesquisa com IA."
+      },
+      "reel": {
+        "gancho": "Seu Termo de Consentimento menciona que uma IA vai processar os dados dos participantes?",
+        "blocos": [
+          "Muitos pesquisadores usam IA na transcrição ou análise sem declarar isso no TCLE.",
+          "Isso é falha de conformidade com a Plataforma Brasil, não só descuido.",
+          "Os três pontos mínimos deste carrossel cobrem o essencial para a submissão ao CEP."
+        ],
+        "cta": "O prompt de revisão está no carrossel — usa antes de submeter seu projeto.",
+        "legendas_tela": ["TCLE precisa declarar IA", "3 pontos mínimos", "Submeta ao CEP com clareza"]
+      },
+      "legenda": "A conformidade ética em pesquisas que usam IA começa no Termo de Consentimento. Este carrossel lista o mínimo que precisa estar explícito antes da submissão à Plataforma Brasil — sem substituir a orientação do seu CEP.",
+      "hashtags": ["#eticaempesquisa", "#plataformabrasil", "#CEP", "#TCLE", "#mestrado", "#doutorado", "#letramentoemia", "#pesquisacientifica"]
+    }
+  ]
+}

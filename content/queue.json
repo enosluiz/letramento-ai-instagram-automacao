@@ -68,7 +68,7 @@
     },
     {
       "id": "p02",
-      "published": false,
+      "published": true,
       "tema": "Uso de LLM na revisão de literatura sem violar rigor ético",
       "slide1": {
         "chapeu": "RIGOR ÉTICO",
@@ -127,7 +127,9 @@
         "#letramentoemia",
         "#pesquisacientifica",
         "#capes"
-      ]
+      ],
+      "published_at": "2026-09-20T15:51:29.283Z",
+      "ig_media_id": "18184246795416207"
     },
     {
       "id": "p03",

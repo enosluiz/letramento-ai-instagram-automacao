@@ -133,7 +133,7 @@
     },
     {
       "id": "p03",
-      "published": false,
+      "published": true,
       "tema": "Estrutura IMRaD aplicada a artigos de mestrado profissional",
       "slide1": {
         "chapeu": "ESTRUTURA",
@@ -192,7 +192,9 @@
         "#letramentoemia",
         "#pesquisa",
         "#qualis"
-      ]
+      ],
+      "published_at": "2026-09-21T18:07:36.791Z",
+      "ig_media_id": "18414693184153021"
     },
     {
       "id": "p04",

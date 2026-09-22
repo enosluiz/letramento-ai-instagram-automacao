@@ -198,7 +198,7 @@
     },
     {
       "id": "p04",
-      "published": false,
+      "published": true,
       "tema": "Prompt de engenharia para análise de dados qualitativos",
       "slide1": {
         "chapeu": "ANÁLISE QUALITATIVA",
@@ -257,7 +257,9 @@
         "#letramentoemia",
         "#engenhariadeprompt",
         "#academiabrasileira"
-      ]
+      ],
+      "published_at": "2026-09-22T16:43:27.849Z",
+      "ig_media_id": "17996433068822768"
     },
     {
       "id": "p05",

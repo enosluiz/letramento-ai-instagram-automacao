@@ -263,7 +263,7 @@
     },
     {
       "id": "p05",
-      "published": false,
+      "published": true,
       "tema": "Diferença entre CAPES/Qualis e fator de impacto na escolha de periódico",
       "slide1": {
         "chapeu": "PUBLICAÇÃO",
@@ -322,7 +322,9 @@
         "#doutorado",
         "#letramentoemia",
         "#producaocientifica"
-      ]
+      ],
+      "published_at": "2026-09-23T16:37:08.740Z",
+      "ig_media_id": "18075555398429126"
     },
     {
       "id": "p06",

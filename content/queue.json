@@ -328,7 +328,7 @@
     },
     {
       "id": "p06",
-      "published": false,
+      "published": true,
       "tema": "Consentimento e Plataforma Brasil em pesquisas com uso de IA",
       "slide1": {
         "chapeu": "ÉTICA EM PESQUISA",
@@ -387,7 +387,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-09-24T16:56:32.272Z",
+      "ig_media_id": "17964033945210777"
     }
   ]
 }

@@ -37,9 +37,13 @@ jobs:
           set -e
           POST_ID=$(node -e "const q=require('./content/queue.json');const p=q.posts.find(p=>!p.published);if(!p){console.log('');process.exit(0);}console.log(p.id);")
           if [ -z "$POST_ID" ]; then
-            echo "Nenhum post pendente. Encerrando."
+            echo "::error::Fila vazia: nenhum post pendente em content/queue.json. Adicione novos posts para retomar a publicação diária."
             echo "has_post=false" >> "$GITHUB_OUTPUT"
-            exit 0
+            exit 1
+          fi
+          PENDENTES=$(node -e "const q=require('./content/queue.json');console.log(q.posts.filter(p=>!p.published).length)")
+          if [ "$PENDENTES" -le 3 ]; then
+            echo "::warning::Restam apenas $PENDENTES posts na fila (incluindo o de hoje). Reabasteça content/queue.json."
           fi
           mkdir -p "published/$POST_ID"
           cp -v "output/$POST_ID"/slide*.png "published/$POST_ID/"

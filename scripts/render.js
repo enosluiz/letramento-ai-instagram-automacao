@@ -32,7 +32,7 @@ function slideData(post, n) {
     pageLabel: `${n}/6`,
     chapeu: s.chapeu || '',
     titulo: s.titulo || '',
-    texto: s.texto || '',
+    texto: s.texto || s.promessa || '',
     itens: s.itens || [],
     prompt: s.prompt || '',
     frase: s.frase || '',

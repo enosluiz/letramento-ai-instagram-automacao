@@ -1,7 +1,7 @@
 name: Renovar token de acesso do Instagram
 
 # O token de longa duração do Instagram expira em ~60 dias. Este workflow
-# roda a cada 45 dias, chama o endpoint de refresh e atualiza o secret
+# roda no dia 1º de cada mês, chama o endpoint de refresh e atualiza o secret
 # IG_TOKEN automaticamente.
 #
 # Requer um secret adicional ADMIN_GH_PAT (Personal Access Token clássico
@@ -12,7 +12,8 @@ name: Renovar token de acesso do Instagram
 
 on:
   schedule:
-    - cron: '0 6 */45 * *'
+    # Dia 1º de cada mês, 06:00 UTC (renovação mensal, bem antes dos 60 dias)
+    - cron: '0 6 1 * *'
   workflow_dispatch: {}
 
 permissions:
@@ -21,6 +22,9 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      # Exposto no nível do job para que os testes "if" das etapas consigam lê-lo.
+      ADMIN_GH_PAT: ${{ secrets.ADMIN_GH_PAT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,15 +36,14 @@ jobs:
         run: |
           set -e
           RESPONSE=$(curl -sS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_TOKEN}")
-          echo "Resposta: $RESPONSE"
-          NEW_TOKEN=$(echo "$RESPONSE" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const j=JSON.parse(d);if(!j.access_token){console.error('sem access_token na resposta');process.exit(1);}console.log(j.access_token);});")
+          # Não imprimir a resposta: ela contém o token novo e os logs deste repositório são públicos.
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const j=JSON.parse(d);if(!j.access_token){console.error('sem access_token na resposta: '+JSON.stringify(j.error||{}));process.exit(1);}console.log(j.access_token);});")
           echo "::add-mask::$NEW_TOKEN"
           echo "new_token=$NEW_TOKEN" >> "$GITHUB_OUTPUT"
 
       - name: Atualizar secret IG_TOKEN
         if: ${{ env.ADMIN_GH_PAT != '' }}
         env:
-          ADMIN_GH_PAT: ${{ secrets.ADMIN_GH_PAT }}
           GH_TOKEN: ${{ secrets.ADMIN_GH_PAT }}
           NEW_TOKEN: ${{ steps.refresh.outputs.new_token }}
         run: |

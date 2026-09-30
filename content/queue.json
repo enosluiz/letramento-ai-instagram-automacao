@@ -390,6 +390,879 @@
       ],
       "published_at": "2026-09-24T16:56:32.272Z",
       "ig_media_id": "17964033945210777"
+    },
+    {
+      "id": "p07",
+      "published": false,
+      "tema": "Pergunta de pesquisa versus objetivo geral",
+      "slide1": {
+        "chapeu": "PROJETO DE PESQUISA",
+        "titulo": "Sua pergunta e seu objetivo dizem a mesma coisa?",
+        "promessa": "Como alinhar [[pergunta]] e [[objetivo geral]] sem redundância nem desvio."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Desalinhamento derruba o projeto",
+        "texto": "É comum a pergunta pedir uma explicação e o objetivo prometer uma descrição. A banca percebe na hora: o método escolhido responde a um, mas não ao outro."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Teste de alinhamento",
+        "texto": "Três checagens antes de fechar o projeto:",
+        "itens": [
+          "O verbo do objetivo responde exatamente ao que a pergunta pede",
+          "Os objetivos específicos, somados, entregam o objetivo geral",
+          "O método escolhido produz o tipo de resposta que a pergunta exige"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar minha pergunta de pesquisa, meu objetivo geral e meus objetivos específicos. Aponte onde há desalinhamento de verbo, escopo ou nível de profundidade. Não reescreva o projeto: apenas liste as inconsistências e explique cada uma."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Pergunta e objetivo são [[o mesmo problema]] visto de [[dois ângulos]]."
+      },
+      "slide6": {
+        "titulo": "Revise o alinhamento antes da qualificação",
+        "texto": "Segue @letramento.ai para mais método de pesquisa com IA."
+      },
+      "reel": {
+        "gancho": "Sua pergunta de pesquisa pede uma coisa e seu objetivo promete outra?",
+        "blocos": [
+          "Esse é um dos desalinhamentos mais comuns em projetos de mestrado.",
+          "O verbo do objetivo precisa responder ao que a pergunta pede.",
+          "O carrossel traz um teste de três checagens e um prompt de revisão."
+        ],
+        "cta": "Salva o carrossel e revisa seu projeto hoje.",
+        "legendas_tela": [
+          "Pergunta ≠ objetivo?",
+          "3 checagens",
+          "Alinhe antes da banca"
+        ]
+      },
+      "legenda": "Pergunta de pesquisa e objetivo geral precisam apontar para o mesmo problema. Este carrossel traz um teste rápido de alinhamento e um prompt que aponta inconsistências sem reescrever o seu projeto por você.",
+      "hashtags": [
+        "#metodologiacientifica",
+        "#projetodepesquisa",
+        "#mestrado",
+        "#mestradoprofissional",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p08",
+      "published": false,
+      "tema": "Referências alucinadas por LLMs e como verificá-las",
+      "slide1": {
+        "chapeu": "INTEGRIDADE ACADÊMICA",
+        "titulo": "Aquela referência que a IA sugeriu existe mesmo?",
+        "promessa": "Como checar [[autor, título e DOI]] antes que a banca faça isso por você."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Referência plausível não é referência real",
+        "texto": "Modelos de linguagem podem gerar citações com autores reais, títulos verossímeis e DOIs inexistentes. Uma única referência falsa compromete a credibilidade do trabalho inteiro."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Verificação em três passos",
+        "texto": "Para cada referência sugerida por IA:",
+        "itens": [
+          "Resolver o DOI em doi.org e conferir se leva ao mesmo título",
+          "Localizar o texto em base confiável (Periódicos CAPES, SciELO, Google Scholar)",
+          "Ler ao menos o resumo antes de citar qualquer afirmação"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar uma lista de referências. Para cada uma, indique se você tem certeza de que ela existe, se não tem certeza ou se pode ser inventada. Não complete dados ausentes e não sugira DOIs: marque o que eu preciso verificar manualmente."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Se você [[não abriu]] a fonte, você [[não pode citá-la]]."
+      },
+      "slide6": {
+        "titulo": "Confira cada referência antes de entregar",
+        "texto": "Segue @letramento.ai para mais rigor no uso de IA na pesquisa."
+      },
+      "reel": {
+        "gancho": "A IA te passou uma referência perfeita. Você abriu o artigo?",
+        "blocos": [
+          "LLMs podem inventar citações com aparência totalmente real.",
+          "O DOI é o primeiro teste: ele precisa levar ao mesmo título.",
+          "O carrossel tem o passo a passo e um prompt de triagem."
+        ],
+        "cta": "Salva e confere suas referências antes da entrega.",
+        "legendas_tela": [
+          "Referência real?",
+          "Teste o DOI",
+          "Leia antes de citar"
+        ]
+      },
+      "legenda": "Referências alucinadas são um risco real no uso de IA na pesquisa. Este carrossel mostra como verificar autor, título e DOI em poucos minutos e traz um prompt que ajuda a separar o que precisa de conferência manual.",
+      "hashtags": [
+        "#integridadeacademica",
+        "#referencias",
+        "#ABNT",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica",
+        "#IA"
+      ]
+    },
+    {
+      "id": "p09",
+      "published": false,
+      "tema": "Citação direta e indireta segundo a ABNT",
+      "slide1": {
+        "chapeu": "NORMAS ABNT",
+        "titulo": "Citar entre aspas ou parafrasear?",
+        "promessa": "Quando usar [[citação direta]] e quando a [[indireta]] é a melhor escolha."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Excesso de aspas enfraquece o texto",
+        "texto": "Um trabalho que só encadeia citações diretas mostra leitura, mas não análise. A banca quer ver você interpretando os autores, não apenas transcrevendo."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Quando usar cada uma",
+        "texto": "Critérios práticos:",
+        "itens": [
+          "Direta: quando a formulação exata do autor importa (definição, conceito-chave)",
+          "Indireta: quando você sintetiza a ideia com suas palavras e cita a fonte",
+          "Direta longa (mais de 3 linhas): recuo de 4 cm, fonte menor e sem aspas"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar um parágrafo do meu referencial teórico. Identifique as citações diretas e diga, para cada uma, se a formulação exata do autor é indispensável ou se uma paráfrase atenderia melhor. Não escreva as paráfrases por mim."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Cite o autor [[literalmente]] só quando [[as palavras dele]] forem o argumento."
+      },
+      "slide6": {
+        "titulo": "Revise suas citações diretas hoje",
+        "texto": "Segue @letramento.ai para mais normas e método de pesquisa."
+      },
+      "reel": {
+        "gancho": "Seu referencial teórico é só uma sequência de aspas?",
+        "blocos": [
+          "Citação direta mostra leitura; indireta mostra análise.",
+          "Use a direta quando a formulação exata do autor for o ponto.",
+          "O carrossel traz critérios e um prompt de revisão."
+        ],
+        "cta": "Salva e revisa seu referencial.",
+        "legendas_tela": [
+          "Aspas demais?",
+          "Direta x indireta",
+          "Análise > transcrição"
+        ]
+      },
+      "legenda": "Citação direta e indireta têm funções diferentes no texto acadêmico. Este carrossel resume quando usar cada uma segundo a ABNT e traz um prompt para revisar o excesso de aspas no seu referencial. Confira sempre a versão vigente da norma e o manual do seu programa.",
+      "hashtags": [
+        "#ABNT",
+        "#citacao",
+        "#normasabnt",
+        "#tcc",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#escritaacademica"
+      ]
+    },
+    {
+      "id": "p10",
+      "published": false,
+      "tema": "Produto técnico-tecnológico no mestrado profissional",
+      "slide1": {
+        "chapeu": "MESTRADO PROFISSIONAL",
+        "titulo": "Seu produto técnico é só um anexo?",
+        "promessa": "Como tratar o [[produto técnico-tecnológico]] como resultado da pesquisa, não como apêndice."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Produto sem método não se sustenta",
+        "texto": "No mestrado profissional, o produto técnico-tecnológico precisa nascer da pesquisa. Quando aparece desconectado dos dados e da análise, vira um material solto, difícil de defender na banca."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Três elos obrigatórios",
+        "texto": "Todo produto deve mostrar:",
+        "itens": [
+          "Qual problema do campo profissional ele resolve",
+          "Quais achados da pesquisa orientaram seu desenho",
+          "Como foi validado ou avaliado por quem vai usá-lo"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou descrever meu produto técnico-tecnológico e resumir os achados da minha pesquisa. Aponte quais decisões de desenho do produto não estão justificadas pelos achados e sugira como documentar a validação com usuários, sem inventar dados que eu não tenho."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "O produto é a [[resposta aplicada]] à sua [[pergunta de pesquisa]]."
+      },
+      "slide6": {
+        "titulo": "Conecte produto e pesquisa antes da defesa",
+        "texto": "Segue @letramento.ai para mais sobre mestrado profissional."
+      },
+      "reel": {
+        "gancho": "No mestrado profissional, o produto técnico é o resultado ou um anexo?",
+        "blocos": [
+          "O produto precisa nascer dos achados da pesquisa.",
+          "Ele deve resolver um problema real do campo profissional.",
+          "E precisa de validação com quem vai usá-lo."
+        ],
+        "cta": "O carrossel traz os três elos e um prompt de checagem.",
+        "legendas_tela": [
+          "Produto ≠ anexo",
+          "3 elos",
+          "Valide com usuários"
+        ]
+      },
+      "legenda": "No mestrado profissional, o produto técnico-tecnológico é parte central da contribuição. Este carrossel mostra os três elos que conectam produto e pesquisa e traz um prompt para checar se o desenho do seu produto está justificado. Consulte sempre o regimento do seu programa.",
+      "hashtags": [
+        "#mestradoprofissional",
+        "#produtotecnico",
+        "#CAPES",
+        "#posgraduacao",
+        "#pesquisaaplicada",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p11",
+      "published": false,
+      "tema": "Revisão sistemática versus revisão narrativa",
+      "slide1": {
+        "chapeu": "REVISÃO DE LITERATURA",
+        "titulo": "Sua revisão é sistemática ou só parece?",
+        "promessa": "O que diferencia uma [[revisão sistemática]] de uma [[revisão narrativa]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Chamar de sistemática não basta",
+        "texto": "Muitos trabalhos declaram revisão sistemática, mas não registram strings de busca, bases, critérios de inclusão nem fluxo de seleção. Sem isso, a revisão não é reprodutível."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Mínimo de uma revisão sistemática",
+        "texto": "Registre e reporte:",
+        "itens": [
+          "Pergunta estruturada, bases consultadas e strings de busca completas",
+          "Critérios de inclusão e exclusão definidos antes da busca",
+          "Fluxo de seleção documentado (o diagrama PRISMA 2020 é a referência)"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a seção de método da minha revisão de literatura. Compare com os itens mínimos de uma revisão sistemática (pergunta, bases, strings, critérios, fluxo de seleção) e liste o que está faltando. Não invente números de artigos nem resultados de busca."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Se outro pesquisador [[não consegue repetir]] sua busca, ela [[não é sistemática]]."
+      },
+      "slide6": {
+        "titulo": "Documente sua busca desde o primeiro dia",
+        "texto": "Segue @letramento.ai para mais método de pesquisa com IA."
+      },
+      "reel": {
+        "gancho": "Você chamou sua revisão de sistemática. Alguém consegue repeti-la?",
+        "blocos": [
+          "Revisão sistemática exige busca reprodutível.",
+          "Strings, bases, critérios e fluxo de seleção precisam estar registrados.",
+          "Sem isso, o nome correto é revisão narrativa, e tudo bem."
+        ],
+        "cta": "O carrossel traz o checklist mínimo e um prompt de auditoria.",
+        "legendas_tela": [
+          "Sistemática?",
+          "Reprodutível",
+          "PRISMA 2020"
+        ]
+      },
+      "legenda": "Revisão narrativa e revisão sistemática são legítimas, mas têm exigências diferentes. Este carrossel resume o mínimo que uma revisão precisa reportar para ser chamada de sistemática e traz um prompt para auditar a sua seção de método.",
+      "hashtags": [
+        "#revisaosistematica",
+        "#PRISMA",
+        "#revisaodeliteratura",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p12",
+      "published": false,
+      "tema": "Como declarar o uso de IA na metodologia",
+      "slide1": {
+        "chapeu": "TRANSPARÊNCIA",
+        "titulo": "Onde e como declarar que você usou IA?",
+        "promessa": "Um modelo de [[declaração de uso de IA]] que a banca e a revista aceitam."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Esconder é pior do que usar",
+        "texto": "Editoras e diretrizes de ética em publicação, como as do COPE, convergem: IA não pode ser autora e seu uso relevante deve ser declarado. Omitir expõe o trabalho a questionamentos de integridade."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "O que a declaração deve conter",
+        "texto": "Quatro informações objetivas:",
+        "itens": [
+          "Qual ferramenta e versão foram usadas",
+          "Em quais etapas (revisão de texto, análise, tradução)",
+          "Como o resultado foi verificado pelo pesquisador",
+          "Que a responsabilidade pelo conteúdo é integralmente dos autores"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou descrever como usei ferramentas de IA na minha pesquisa. Redija uma declaração de uso de IA em até 80 palavras contendo ferramenta, etapas, forma de verificação e responsabilidade dos autores. Use apenas as informações que eu fornecer."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A IA pode [[ajudar]] no trabalho, mas a [[autoria]] continua sendo sua."
+      },
+      "slide6": {
+        "titulo": "Confira as regras da sua revista ou programa",
+        "texto": "Segue @letramento.ai para mais ética no uso de IA em pesquisa."
+      },
+      "reel": {
+        "gancho": "Você usou IA na pesquisa. Declarou isso?",
+        "blocos": [
+          "IA não pode ser autora, mas seu uso relevante deve ser declarado.",
+          "A declaração precisa dizer ferramenta, etapa e como você verificou.",
+          "O carrossel traz o modelo e um prompt para redigir a sua."
+        ],
+        "cta": "Salva e confere a política da sua revista.",
+        "legendas_tela": [
+          "Declare o uso de IA",
+          "4 informações",
+          "Autoria é sua"
+        ]
+      },
+      "legenda": "Declarar o uso de IA é parte da integridade acadêmica. Este carrossel lista o que uma boa declaração precisa conter e traz um prompt para redigi-la a partir do seu uso real. Cada revista e programa pode ter regras próprias: confira sempre antes de submeter.",
+      "hashtags": [
+        "#integridadeacademica",
+        "#eticaempesquisa",
+        "#IA",
+        "#COPE",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#publicacaocientifica"
+      ]
+    },
+    {
+      "id": "p13",
+      "published": false,
+      "tema": "Análise de conteúdo de Bardin com apoio de IA",
+      "slide1": {
+        "chapeu": "PESQUISA QUALITATIVA",
+        "titulo": "Dá para usar IA na análise de conteúdo?",
+        "promessa": "Onde a IA ajuda e onde ela [[não substitui]] as três fases de [[Bardin]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Categorias prontas não são análise",
+        "texto": "Pedir a um LLM que categorize entrevistas e copiar o resultado pula a etapa mais importante: a inferência do pesquisador, fundamentada no referencial teórico."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "As três fases e o papel da IA",
+        "texto": "Use a IA como apoio, fase a fase:",
+        "itens": [
+          "Pré-análise: IA ajuda a organizar o corpus; você define hipóteses e regras",
+          "Exploração do material: IA sugere códigos; você valida cada um",
+          "Tratamento e inferência: a interpretação é exclusivamente sua"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar um trecho de entrevista e minha lista de categorias definida a partir do referencial teórico. Sugira quais unidades de registro se encaixam em cada categoria e justifique. Marque os trechos ambíguos para eu decidir. Não crie categorias novas sem me avisar."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A IA [[codifica]] mais rápido. Só você [[interpreta]] com fundamento."
+      },
+      "slide6": {
+        "titulo": "Documente como a IA participou da análise",
+        "texto": "Segue @letramento.ai para mais pesquisa qualitativa com IA."
+      },
+      "reel": {
+        "gancho": "Você pediu para a IA categorizar suas entrevistas e parou aí?",
+        "blocos": [
+          "Análise de conteúdo tem três fases, segundo Bardin.",
+          "A IA pode apoiar a organização e a codificação.",
+          "A inferência e a interpretação continuam sendo do pesquisador."
+        ],
+        "cta": "O carrossel mostra o papel da IA em cada fase.",
+        "legendas_tela": [
+          "IA + Bardin",
+          "3 fases",
+          "Interpretação é sua"
+        ]
+      },
+      "legenda": "A análise de conteúdo pode ganhar agilidade com IA, desde que o pesquisador mantenha o controle das categorias e da inferência. Este carrossel mostra onde a IA ajuda em cada fase de Bardin e traz um prompt de codificação assistida.",
+      "hashtags": [
+        "#pesquisaqualitativa",
+        "#analisedeconteudo",
+        "#Bardin",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p14",
+      "published": false,
+      "tema": "Identificar lacunas de pesquisa com IA sem inventar",
+      "slide1": {
+        "chapeu": "PROBLEMA DE PESQUISA",
+        "titulo": "A IA achou uma lacuna. Ela existe?",
+        "promessa": "Como usar LLMs para mapear [[lacunas]] sem aceitar [[achados inventados]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Lacuna sem evidência é suposição",
+        "texto": "Perguntar a um modelo o que ainda não foi pesquisado gera respostas convincentes, mas sem base verificável. Lacuna de pesquisa se demonstra com a literatura, não com uma afirmação."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Lacuna demonstrada em três passos",
+        "texto": "Da hipótese à evidência:",
+        "itens": [
+          "Reúna você mesmo os estudos centrais do tema em bases confiáveis",
+          "Peça à IA que compare os estudos que você forneceu",
+          "Confirme cada lacuna apontada voltando aos textos originais"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar os resumos de estudos que selecionei. Compare-os quanto a contexto, método, população e resultados, e aponte combinações que nenhum deles investigou. Baseie-se apenas nos resumos fornecidos e indique qual estudo sustenta cada observação."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Lacuna de pesquisa se [[demonstra]] com fontes, não se [[declara]]."
+      },
+      "slide6": {
+        "titulo": "Mostre a lacuna com a literatura",
+        "texto": "Segue @letramento.ai para mais engenharia de prompts na pesquisa."
+      },
+      "reel": {
+        "gancho": "Você perguntou à IA qual é a lacuna da sua área?",
+        "blocos": [
+          "A resposta pode soar convincente sem ter base verificável.",
+          "O caminho seguro é fornecer os estudos e pedir a comparação.",
+          "Cada lacuna precisa ser confirmada nos textos originais."
+        ],
+        "cta": "O prompt de comparação está no carrossel.",
+        "legendas_tela": [
+          "Lacuna real?",
+          "Forneça as fontes",
+          "Confirme no original"
+        ]
+      },
+      "legenda": "Identificar a lacuna é o que justifica a sua pesquisa. Este carrossel mostra como usar LLMs para comparar estudos que você selecionou, em vez de pedir que a IA invente o que falta na literatura.",
+      "hashtags": [
+        "#problemadepesquisa",
+        "#engenhariadeprompt",
+        "#revisaodeliteratura",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p15",
+      "published": false,
+      "tema": "Paráfrase com IA, similaridade e plágio",
+      "slide1": {
+        "chapeu": "INTEGRIDADE ACADÊMICA",
+        "titulo": "Parafrasear com IA evita plágio?",
+        "promessa": "Por que [[trocar palavras]] não é o mesmo que [[produzir texto próprio]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Plágio de ideias continua sendo plágio",
+        "texto": "Reescrever o texto de outro autor com IA pode reduzir o índice de similaridade, mas apresentar a ideia sem citar a fonte continua sendo plágio, com ou sem ferramenta."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Uso seguro de paráfrase",
+        "texto": "Três cuidados:",
+        "itens": [
+          "Leia e entenda o original antes de pedir qualquer reescrita",
+          "Cite a fonte mesmo quando o texto final estiver com suas palavras",
+          "Use a IA para revisar clareza do seu texto, não para disfarçar o de outro"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar um parágrafo que eu escrevi a partir da leitura de um autor. Aponte trechos muito próximos da formulação original que eu também vou colar e indique onde falta citação. Não reescreva o parágrafo por mim."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Índice de similaridade baixo [[não prova]] originalidade. [[Citação]] prova."
+      },
+      "slide6": {
+        "titulo": "Cite a ideia, não só as palavras",
+        "texto": "Segue @letramento.ai para mais integridade no uso de IA."
+      },
+      "reel": {
+        "gancho": "Você usou IA para parafrasear e o índice de similaridade caiu. Problema resolvido?",
+        "blocos": [
+          "Plágio é apresentar a ideia de outro sem citar, com qualquer redação.",
+          "Reduzir similaridade não substitui a citação.",
+          "Use a IA para revisar o seu texto, não para disfarçar o de outro."
+        ],
+        "cta": "O carrossel traz os cuidados e um prompt de auditoria.",
+        "legendas_tela": [
+          "Paráfrase ≠ autoria",
+          "Cite a ideia",
+          "Revise com ética"
+        ]
+      },
+      "legenda": "Paráfrase com IA virou atalho comum, e também uma armadilha de integridade. Este carrossel explica por que trocar palavras não substitui a citação e traz um prompt para auditar a proximidade entre o seu texto e a fonte.",
+      "hashtags": [
+        "#plagio",
+        "#integridadeacademica",
+        "#escritaacademica",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p16",
+      "published": false,
+      "tema": "Justificativa de pesquisa: teórica, prática e social",
+      "slide1": {
+        "chapeu": "PROJETO DE PESQUISA",
+        "titulo": "Sua justificativa convence ou só afirma?",
+        "promessa": "Os [[três argumentos]] que sustentam uma justificativa [[sólida]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Tema importante não é justificativa",
+        "texto": "Dizer que o tema é relevante e atual não justifica nada. A banca quer saber para quem a pesquisa importa, o que ela acrescenta à literatura e que problema concreto ajuda a enfrentar."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Três dimensões da justificativa",
+        "texto": "Responda com evidência:",
+        "itens": [
+          "Teórica: o que a pesquisa acrescenta ao que já se sabe",
+          "Prática: que decisão ou processo profissional ela pode melhorar",
+          "Social: quem é afetado pelo problema e em que escala"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a justificativa do meu projeto. Classifique cada argumento como teórico, prático ou social e aponte quais afirmações não têm evidência ou fonte. Não acrescente dados ou estatísticas que eu não forneci."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Justificativa boa responde [[por que isso importa]] com [[evidências]]."
+      },
+      "slide6": {
+        "titulo": "Fortaleça sua justificativa com fontes",
+        "texto": "Segue @letramento.ai para mais método de pesquisa."
+      },
+      "reel": {
+        "gancho": "Sua justificativa começa com 'este tema é muito relevante'?",
+        "blocos": [
+          "Relevância precisa ser demonstrada, não declarada.",
+          "Uma boa justificativa combina argumentos teóricos, práticos e sociais.",
+          "Cada argumento precisa de evidência."
+        ],
+        "cta": "O carrossel traz as três dimensões e um prompt de revisão.",
+        "legendas_tela": [
+          "Relevante por quê?",
+          "3 dimensões",
+          "Evidência sempre"
+        ]
+      },
+      "legenda": "A justificativa é onde você convence a banca de que a pesquisa merece existir. Este carrossel organiza os argumentos em três dimensões e traz um prompt para identificar afirmações sem evidência no seu projeto.",
+      "hashtags": [
+        "#projetodepesquisa",
+        "#metodologiacientifica",
+        "#mestrado",
+        "#mestradoprofissional",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p17",
+      "published": false,
+      "tema": "Saturação na amostragem qualitativa",
+      "slide1": {
+        "chapeu": "PESQUISA QUALITATIVA",
+        "titulo": "Quantas entrevistas são suficientes?",
+        "promessa": "Como justificar o tamanho da amostra com o critério de [[saturação]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Número redondo não é critério",
+        "texto": "Definir dez ou vinte entrevistas sem justificativa é uma das críticas mais frequentes em bancas. Em pesquisa qualitativa, o tamanho da amostra precisa ser argumentado, não escolhido por conveniência."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Como demonstrar saturação",
+        "texto": "Registre durante a coleta:",
+        "itens": [
+          "Quais códigos ou temas surgiram em cada nova entrevista",
+          "O ponto em que novas entrevistas deixaram de trazer temas novos",
+          "O critério adotado, citado a partir da literatura metodológica"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a lista de códigos que surgiram em cada entrevista, em ordem. Monte uma tabela mostrando quantos códigos novos apareceram a cada entrevista e indique a partir de onde a curva estabiliza. Não interprete o conteúdo dos códigos."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A amostra termina quando os dados [[param de trazer novidade]], não quando [[o prazo aperta]]."
+      },
+      "slide6": {
+        "titulo": "Registre a saturação desde a primeira entrevista",
+        "texto": "Segue @letramento.ai para mais pesquisa qualitativa."
+      },
+      "reel": {
+        "gancho": "Por que você fez exatamente quinze entrevistas?",
+        "blocos": [
+          "Em pesquisa qualitativa, o tamanho da amostra precisa de justificativa.",
+          "O critério de saturação é uma das formas de fazer isso.",
+          "Mas ele precisa ser registrado ao longo da coleta."
+        ],
+        "cta": "O carrossel mostra como documentar a saturação.",
+        "legendas_tela": [
+          "Quantas entrevistas?",
+          "Saturação",
+          "Registre na coleta"
+        ]
+      },
+      "legenda": "Justificar o tamanho da amostra é parte do rigor da pesquisa qualitativa. Este carrossel mostra como registrar e demonstrar a saturação e traz um prompt que transforma sua lista de códigos em uma tabela de evidência.",
+      "hashtags": [
+        "#pesquisaqualitativa",
+        "#amostragem",
+        "#saturacao",
+        "#entrevistas",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia"
+      ]
+    },
+    {
+      "id": "p18",
+      "published": false,
+      "tema": "Triangulação de dados e métodos",
+      "slide1": {
+        "chapeu": "RIGOR METODOLÓGICO",
+        "titulo": "Seus achados dependem de uma única fonte?",
+        "promessa": "Como a [[triangulação]] aumenta a [[credibilidade]] dos resultados."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Uma fonte, uma perspectiva",
+        "texto": "Quando todos os achados vêm de um único tipo de dado, a banca pergunta: e se esse instrumento tiver viés? A triangulação responde a essa pergunta antes que ela seja feita."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Tipos de triangulação",
+        "texto": "Escolha pelo menos um:",
+        "itens": [
+          "De dados: entrevistas, documentos e observação sobre o mesmo fenômeno",
+          "De métodos: combinar técnicas qualitativas e quantitativas",
+          "De investigadores: mais de um pesquisador codificando o mesmo material"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou descrever meus achados e as fontes de dados que usei. Para cada achado, indique se ele é sustentado por uma ou por mais fontes e sugira que tipo de dado adicional poderia confirmá-lo. Não altere nem complete meus resultados."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Achado confirmado por [[fontes diferentes]] é achado [[mais difícil de contestar]]."
+      },
+      "slide6": {
+        "titulo": "Planeje a triangulação no projeto",
+        "texto": "Segue @letramento.ai para mais rigor metodológico."
+      },
+      "reel": {
+        "gancho": "Todos os seus resultados vêm de um único instrumento?",
+        "blocos": [
+          "Uma única fonte deixa o achado vulnerável a viés.",
+          "Triangular dados, métodos ou investigadores aumenta a credibilidade.",
+          "O ideal é planejar isso já no projeto."
+        ],
+        "cta": "O carrossel traz os tipos e um prompt de verificação.",
+        "legendas_tela": [
+          "Uma fonte só?",
+          "Triangule",
+          "Mais credibilidade"
+        ]
+      },
+      "legenda": "A triangulação é uma das estratégias mais usadas para dar credibilidade a pesquisas, principalmente qualitativas. Este carrossel resume os tipos de triangulação e traz um prompt para mapear quais achados ainda dependem de uma única fonte.",
+      "hashtags": [
+        "#metodologiacientifica",
+        "#triangulacao",
+        "#pesquisaqualitativa",
+        "#metodosmistos",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia"
+      ]
+    },
+    {
+      "id": "p19",
+      "published": false,
+      "tema": "Strings de busca booleana para revisão de literatura",
+      "slide1": {
+        "chapeu": "REVISÃO DE LITERATURA",
+        "titulo": "Sua busca encontra o que importa?",
+        "promessa": "Como montar [[strings booleanas]] reprodutíveis com ajuda de [[IA]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Palavra-chave solta traz ruído",
+        "texto": "Buscar só pelo tema principal retorna milhares de resultados irrelevantes ou deixa de fora estudos centrais que usam sinônimos. A string é o que torna a busca precisa e repetível."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Estrutura de uma boa string",
+        "texto": "Monte em blocos:",
+        "itens": [
+          "Um bloco por conceito, com sinônimos unidos por OR",
+          "Blocos combinados entre si por AND",
+          "Aspas para expressões exatas e registro da string completa usada em cada base"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Minha pergunta de pesquisa é esta: [cole aqui]. Separe os conceitos centrais, sugira sinônimos em português e inglês para cada um e monte uma string booleana com blocos OR e AND. Explique cada escolha para eu validar antes de usar nas bases."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A IA [[sugere]] os termos. Você [[testa e registra]] a string."
+      },
+      "slide6": {
+        "titulo": "Teste a string em cada base antes de fechar",
+        "texto": "Segue @letramento.ai para mais engenharia de prompts na pesquisa."
+      },
+      "reel": {
+        "gancho": "Você busca artigos digitando só o nome do tema?",
+        "blocos": [
+          "Isso gera ruído ou deixa estudos importantes de fora.",
+          "Strings booleanas organizam sinônimos com OR e conceitos com AND.",
+          "A IA ajuda a sugerir termos, e você valida."
+        ],
+        "cta": "O prompt para montar sua string está no carrossel.",
+        "legendas_tela": [
+          "Busca precisa",
+          "OR + AND",
+          "Registre a string"
+        ]
+      },
+      "legenda": "Uma revisão de literatura começa por uma boa busca. Este carrossel mostra a estrutura de uma string booleana e traz um prompt para gerar sinônimos e blocos de busca, que você testa e registra em cada base.",
+      "hashtags": [
+        "#revisaodeliteratura",
+        "#buscabibliografica",
+        "#engenhariadeprompt",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisacientifica"
+      ]
+    },
+    {
+      "id": "p20",
+      "published": false,
+      "tema": "Resumo acadêmico segundo a ABNT NBR 6028",
+      "slide1": {
+        "chapeu": "NORMAS ABNT",
+        "titulo": "Seu resumo diz o que a pesquisa encontrou?",
+        "promessa": "Os [[elementos obrigatórios]] de um resumo que realmente [[informa]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Resumo não é introdução",
+        "texto": "Muitos resumos gastam quase todo o espaço contextualizando o tema e terminam sem dizer o que foi encontrado. Quem lê só o resumo precisa saber objetivo, método, resultados e conclusão."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Estrutura mínima",
+        "texto": "Segundo a NBR 6028:2021:",
+        "itens": [
+          "Objetivo, método, resultados e conclusões, em parágrafo único",
+          "Frases na voz ativa e na terceira pessoa do singular",
+          "Trabalhos acadêmicos: de 150 a 500 palavras; artigos: de 100 a 250"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar meu resumo. Identifique se ele apresenta objetivo, método, resultados e conclusões, e aponte qual elemento está ausente ou fraco. Informe a contagem de palavras. Não reescreva o resumo e não invente resultados."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Se o leitor [[só ler o resumo]], ele precisa saber [[o que você descobriu]]."
+      },
+      "slide6": {
+        "titulo": "Revise seu resumo com a norma em mãos",
+        "texto": "Segue @letramento.ai para mais normas e escrita acadêmica."
+      },
+      "reel": {
+        "gancho": "Seu resumo termina sem dizer o que a pesquisa encontrou?",
+        "blocos": [
+          "Resumo não é introdução: ele precisa trazer resultados.",
+          "A NBR 6028 pede objetivo, método, resultados e conclusões.",
+          "E define limites de palavras por tipo de trabalho."
+        ],
+        "cta": "O carrossel traz a estrutura e um prompt de checagem.",
+        "legendas_tela": [
+          "Resumo ≠ introdução",
+          "4 elementos",
+          "NBR 6028"
+        ]
+      },
+      "legenda": "O resumo é o texto mais lido de qualquer trabalho acadêmico. Este carrossel resume os elementos exigidos pela ABNT NBR 6028 e traz um prompt para checar se o seu resumo informa o que a pesquisa encontrou. Confira também as regras do seu programa ou revista.",
+      "hashtags": [
+        "#ABNT",
+        "#resumo",
+        "#NBR6028",
+        "#escritaacademica",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#tcc"
+      ]
     }
   ]
 }

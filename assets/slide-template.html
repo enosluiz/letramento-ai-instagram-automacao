@@ -88,10 +88,14 @@
   }
   .frase{
     margin-top:28px;
-    font-size:30px;
-    line-height:1.5;
+    font-size:54px;
+    font-weight:700;
+    line-height:1.25;
+    color:var(--text-main);
+  }
+  .hl{
     color:var(--primary);
-    font-style:italic;
+    font-weight:700;
   }
   .cta-box{
     margin-top:auto;
@@ -134,18 +138,23 @@
 <script>
   // window.SLIDE_DATA é injetado pelo Playwright antes do render:
   // { chapeu, titulo, texto, itens: [], prompt, frase, cta, pageLabel }
+  // Converte [[trecho]] em destaque ciano; o restante é escapado como texto puro.
+  function setRich(el, text){
+    const esc = String(text).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    el.innerHTML = esc.replace(/\[\[(.+?)\]\]/g, '<span class="hl">$1</span>');
+  }
   function render(d){
     if(d.pageLabel) document.getElementById('page-indicator').textContent = d.pageLabel;
     if(d.chapeu) document.getElementById('chapeu').textContent = d.chapeu;
-    if(d.titulo) document.getElementById('titulo').textContent = d.titulo;
-    if(d.texto) document.getElementById('texto').textContent = d.texto;
+    if(d.titulo) setRich(document.getElementById('titulo'), d.titulo);
+    if(d.texto) setRich(document.getElementById('texto'), d.texto);
     if(d.itens && d.itens.length){
       const box = document.getElementById('itens');
       box.innerHTML = '';
       d.itens.forEach(it=>{
         const el = document.createElement('div');
         el.className='item';
-        el.textContent = it;
+        setRich(el, it);
         box.appendChild(el);
       });
     }
@@ -157,7 +166,7 @@
     if(d.frase){
       const f = document.getElementById('frase');
       f.style.display='block';
-      f.textContent = d.frase;
+      setRich(f, d.frase);
     }
     if(d.cta){
       const c = document.getElementById('cta');

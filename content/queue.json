@@ -393,7 +393,7 @@
     },
     {
       "id": "p07",
-      "published": false,
+      "published": true,
       "tema": "Pergunta de pesquisa versus objetivo geral",
       "slide1": {
         "chapeu": "PROJETO DE PESQUISA",
@@ -451,7 +451,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-01T18:19:41.328Z",
+      "ig_media_id": "18141092899593740"
     },
     {
       "id": "p08",

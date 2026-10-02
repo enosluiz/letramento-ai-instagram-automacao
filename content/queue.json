@@ -457,7 +457,7 @@
     },
     {
       "id": "p08",
-      "published": false,
+      "published": true,
       "tema": "Referências alucinadas por LLMs e como verificá-las",
       "slide1": {
         "chapeu": "INTEGRIDADE ACADÊMICA",
@@ -516,7 +516,9 @@
         "#letramentoemia",
         "#pesquisacientifica",
         "#IA"
-      ]
+      ],
+      "published_at": "2026-10-02T17:45:03.938Z",
+      "ig_media_id": "18372832015245968"
     },
     {
       "id": "p09",

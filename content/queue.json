@@ -522,7 +522,7 @@
     },
     {
       "id": "p09",
-      "published": false,
+      "published": true,
       "tema": "Citação direta e indireta segundo a ABNT",
       "slide1": {
         "chapeu": "NORMAS ABNT",
@@ -581,7 +581,9 @@
         "#doutorado",
         "#letramentoemia",
         "#escritaacademica"
-      ]
+      ],
+      "published_at": "2026-10-03T16:03:48.135Z",
+      "ig_media_id": "18042983072831319"
     },
     {
       "id": "p10",

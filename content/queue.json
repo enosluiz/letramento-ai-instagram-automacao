@@ -587,7 +587,7 @@
     },
     {
       "id": "p10",
-      "published": false,
+      "published": true,
       "tema": "Produto técnico-tecnológico no mestrado profissional",
       "slide1": {
         "chapeu": "MESTRADO PROFISSIONAL",
@@ -645,7 +645,9 @@
         "#pesquisaaplicada",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-04T16:44:11.564Z",
+      "ig_media_id": "18146802172561091"
     },
     {
       "id": "p11",

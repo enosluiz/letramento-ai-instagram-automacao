@@ -651,7 +651,7 @@
     },
     {
       "id": "p11",
-      "published": false,
+      "published": true,
       "tema": "Revisão sistemática versus revisão narrativa",
       "slide1": {
         "chapeu": "REVISÃO DE LITERATURA",
@@ -709,7 +709,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-05T20:28:51.848Z",
+      "ig_media_id": "18095137283541951"
     },
     {
       "id": "p12",

@@ -715,7 +715,7 @@
     },
     {
       "id": "p12",
-      "published": false,
+      "published": true,
       "tema": "Como declarar o uso de IA na metodologia",
       "slide1": {
         "chapeu": "TRANSPARÊNCIA",
@@ -775,7 +775,9 @@
         "#doutorado",
         "#letramentoemia",
         "#publicacaocientifica"
-      ]
+      ],
+      "published_at": "2026-10-06T18:12:26.797Z",
+      "ig_media_id": "18124626730675444"
     },
     {
       "id": "p13",

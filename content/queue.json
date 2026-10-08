@@ -781,7 +781,7 @@
     },
     {
       "id": "p13",
-      "published": false,
+      "published": true,
       "tema": "Análise de conteúdo de Bardin com apoio de IA",
       "slide1": {
         "chapeu": "PESQUISA QUALITATIVA",
@@ -839,7 +839,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-08T18:44:04.555Z",
+      "ig_media_id": "18165377938483275"
     },
     {
       "id": "p14",

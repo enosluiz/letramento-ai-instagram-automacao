@@ -845,7 +845,7 @@
     },
     {
       "id": "p14",
-      "published": false,
+      "published": true,
       "tema": "Identificar lacunas de pesquisa com IA sem inventar",
       "slide1": {
         "chapeu": "PROBLEMA DE PESQUISA",
@@ -903,7 +903,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-09T18:14:39.435Z",
+      "ig_media_id": "17911573461537789"
     },
     {
       "id": "p15",

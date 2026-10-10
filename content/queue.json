@@ -909,7 +909,7 @@
     },
     {
       "id": "p15",
-      "published": false,
+      "published": true,
       "tema": "Paráfrase com IA, similaridade e plágio",
       "slide1": {
         "chapeu": "INTEGRIDADE ACADÊMICA",
@@ -967,7 +967,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-10T17:13:41.416Z",
+      "ig_media_id": "18126344419861410"
     },
     {
       "id": "p16",

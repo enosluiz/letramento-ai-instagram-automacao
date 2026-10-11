@@ -973,7 +973,7 @@
     },
     {
       "id": "p16",
-      "published": false,
+      "published": true,
       "tema": "Justificativa de pesquisa: teórica, prática e social",
       "slide1": {
         "chapeu": "PROJETO DE PESQUISA",
@@ -1031,7 +1031,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-11T17:36:26.482Z",
+      "ig_media_id": "18118679338763253"
     },
     {
       "id": "p17",

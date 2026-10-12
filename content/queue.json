@@ -1037,7 +1037,7 @@
     },
     {
       "id": "p17",
-      "published": false,
+      "published": true,
       "tema": "Saturação na amostragem qualitativa",
       "slide1": {
         "chapeu": "PESQUISA QUALITATIVA",
@@ -1095,7 +1095,9 @@
         "#mestrado",
         "#doutorado",
         "#letramentoemia"
-      ]
+      ],
+      "published_at": "2026-10-12T21:10:17.122Z",
+      "ig_media_id": "17968775123965865"
     },
     {
       "id": "p18",

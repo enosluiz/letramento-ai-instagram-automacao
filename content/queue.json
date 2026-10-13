@@ -1101,7 +1101,7 @@
     },
     {
       "id": "p18",
-      "published": false,
+      "published": true,
       "tema": "Triangulação de dados e métodos",
       "slide1": {
         "chapeu": "RIGOR METODOLÓGICO",
@@ -1159,7 +1159,9 @@
         "#mestrado",
         "#doutorado",
         "#letramentoemia"
-      ]
+      ],
+      "published_at": "2026-10-13T19:09:04.955Z",
+      "ig_media_id": "18107266832219082"
     },
     {
       "id": "p19",

@@ -1165,7 +1165,7 @@
     },
     {
       "id": "p19",
-      "published": false,
+      "published": true,
       "tema": "Strings de busca booleana para revisão de literatura",
       "slide1": {
         "chapeu": "REVISÃO DE LITERATURA",
@@ -1223,7 +1223,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisacientifica"
-      ]
+      ],
+      "published_at": "2026-10-14T16:57:40.404Z",
+      "ig_media_id": "18145061764575209"
     },
     {
       "id": "p20",

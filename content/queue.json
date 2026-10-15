@@ -1229,7 +1229,7 @@
     },
     {
       "id": "p20",
-      "published": false,
+      "published": true,
       "tema": "Resumo acadêmico segundo a ABNT NBR 6028",
       "slide1": {
         "chapeu": "NORMAS ABNT",
@@ -1288,7 +1288,9 @@
         "#doutorado",
         "#letramentoemia",
         "#tcc"
-      ]
+      ],
+      "published_at": "2026-10-15T16:44:22.498Z",
+      "ig_media_id": "18178884595433552"
     }
   ]
 }

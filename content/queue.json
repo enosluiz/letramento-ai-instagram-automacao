@@ -1291,6 +1291,888 @@
       ],
       "published_at": "2026-10-15T16:44:22.498Z",
       "ig_media_id": "18178884595433552"
+    },
+    {
+      "id": "p21",
+      "published": false,
+      "tema": "Gestão de referências com Zotero e verificação de metadados",
+      "slide1": {
+        "chapeu": "FERRAMENTAS",
+        "titulo": "Sua bibliografia quebra na véspera da entrega?",
+        "promessa": "Como montar uma [[biblioteca confiável]] e auditar os [[metadados]] antes que eles errem a citação."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "O gerenciador não confere nada",
+        "texto": "O Zotero importa o que o site informou. Se o editor cadastrou o ano errado, o nome abreviado ou o periódico incompleto, o erro entra na sua lista de referências com aparência de correção. A automação propaga o defeito."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Auditoria em três passos",
+        "texto": "Antes de gerar a lista final:",
+        "itens": [
+          "Confira autor, ano, periódico, volume e páginas contra o PDF original",
+          "Padronize o campo de autor: sobrenome e prenome completos quando a norma exigir",
+          "Verifique o DOI resolvendo o link, não apenas a presença do número"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar minha lista de referências. Para cada item, aponte campos ausentes ou inconsistentes segundo a ABNT NBR 6023 (autor, título, edição, local, editora, ano, paginação). Não complete dados faltantes e não invente nenhuma informação: apenas sinalize o que está incompleto."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Toda referência precisa ser [[conferida no original]], não apenas [[importada]]."
+      },
+      "slide6": {
+        "titulo": "Audite sua biblioteca antes do depósito",
+        "texto": "Segue @letramento.ai para mais rotinas de rigor na pesquisa."
+      },
+      "reel": {
+        "gancho": "Seu gerenciador de referências não confere nada do que importa.",
+        "blocos": [
+          "Ele apenas copia o que o site do editor informou.",
+          "Ano errado, nome abreviado e periódico incompleto entram com cara de certo.",
+          "A conferência contra o PDF original continua sendo sua."
+        ],
+        "cta": "O carrossel traz a auditoria em três passos e um prompt de checagem.",
+        "legendas_tela": [
+          "Importar ≠ conferir",
+          "3 passos",
+          "NBR 6023"
+        ]
+      },
+      "legenda": "Gerenciadores de referência economizam horas, mas não validam metadados. Este carrossel traz uma rotina de auditoria em três passos e um prompt que sinaliza campos ausentes segundo a ABNT NBR 6023, sem preencher lacunas por conta própria. Confira sempre as exigências do seu programa.",
+      "hashtags": [
+        "#zotero",
+        "#referencias",
+        "#ABNT",
+        "#NBR6023",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#escritaacademica"
+      ]
+    },
+    {
+      "id": "p22",
+      "published": false,
+      "tema": "Validação de instrumento por juízes e índice de validade de conteúdo",
+      "slide1": {
+        "chapeu": "INSTRUMENTOS",
+        "titulo": "Seu questionário mede o que você acha que mede?",
+        "promessa": "Como submeter o instrumento a [[juízes]] e calcular o [[índice de validade de conteúdo]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Instrumento feito no improviso",
+        "texto": "Construir as perguntas sozinho e aplicá-las direto no campo é um dos pontos mais atacados na banca. Sem evidência de validade, qualquer resultado obtido fica sob suspeita de medir outra coisa."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Painel de especialistas",
+        "texto": "A rotina mínima de validação de conteúdo:",
+        "itens": [
+          "Reúna especialistas na área do construto e descreva seus critérios de seleção",
+          "Peça avaliação item a item quanto a clareza, pertinência e representatividade",
+          "Calcule a concordância por item e revise ou descarte os itens abaixo do critério adotado"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar os itens do meu instrumento e o construto que pretendo medir. Para cada item, aponte ambiguidade, duplo sentido, indução de resposta ou desalinhamento em relação ao construto declarado. Não reescreva os itens e não sugira itens novos: apenas diagnostique."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Validade não se [[declara]] na metodologia: ela se [[demonstra]] com evidência."
+      },
+      "slide6": {
+        "titulo": "Valide o instrumento antes do campo",
+        "texto": "Segue @letramento.ai para mais método aplicado à pesquisa."
+      },
+      "reel": {
+        "gancho": "Você construiu o questionário sozinho e já aplicou no campo?",
+        "blocos": [
+          "Sem evidência de validade, o resultado fica sob suspeita.",
+          "A rotina mínima é um painel de especialistas avaliando item a item.",
+          "Clareza, pertinência e representatividade, com concordância calculada."
+        ],
+        "cta": "O carrossel traz a rotina completa e um prompt de diagnóstico dos itens.",
+        "legendas_tela": [
+          "Validade ≠ declaração",
+          "Painel de juízes",
+          "Item a item"
+        ]
+      },
+      "legenda": "Instrumento construído sem validação é alvo certo na banca. Este carrossel apresenta a rotina de validação de conteúdo por painel de especialistas e um prompt que diagnostica ambiguidade e indução de resposta nos itens. Adote o critério de concordância definido na literatura da sua área.",
+      "hashtags": [
+        "#metodologia",
+        "#questionario",
+        "#validacao",
+        "#pesquisaquantitativa",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#instrumento"
+      ]
+    },
+    {
+      "id": "p23",
+      "published": false,
+      "tema": "Pré-registro de estudo e transparência metodológica",
+      "slide1": {
+        "chapeu": "TRANSPARÊNCIA",
+        "titulo": "Você decidiu a análise depois de ver os dados?",
+        "promessa": "Como o [[pré-registro]] separa o que foi [[previsto]] do que foi descoberto."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Hipótese ajustada ao resultado",
+        "texto": "Quando a hipótese é reformulada depois de conhecer os dados, o estudo perde a capacidade de testar qualquer coisa. O texto passa a narrar uma previsão que nunca existiu, e o leitor não tem como distinguir uma da outra."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Registrar antes de coletar",
+        "texto": "O pré-registro documenta, com data anterior à coleta:",
+        "itens": [
+          "Hipóteses, variáveis e critérios de inclusão e exclusão",
+          "Plano de análise, incluindo tratamento de dados ausentes e de casos atípicos",
+          "Tamanho da amostra pretendido e a regra de parada da coleta"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar meu projeto. Liste as decisões analíticas que ainda estão em aberto e que, se definidas após a coleta, comprometeriam o teste das hipóteses. Para cada uma, indique qual informação precisa ser fixada antes de coletar. Não proponha hipóteses novas."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Análise [[exploratória]] é legítima, desde que seja [[declarada]] como tal."
+      },
+      "slide6": {
+        "titulo": "Registre o plano antes da coleta",
+        "texto": "Segue @letramento.ai para mais integridade metodológica."
+      },
+      "reel": {
+        "gancho": "Decidir a análise depois de ver os dados anula o teste de hipótese.",
+        "blocos": [
+          "A hipótese reformulada vira narrativa, não previsão.",
+          "O pré-registro fixa hipóteses, variáveis e plano de análise antes da coleta.",
+          "Exploratório continua valendo, desde que declarado."
+        ],
+        "cta": "O carrossel traz o que registrar e um prompt para achar decisões em aberto.",
+        "legendas_tela": [
+          "Antes de coletar",
+          "Plano fixado",
+          "Exploratório declarado"
+        ]
+      },
+      "legenda": "Pré-registro não engessa a pesquisa: ele distingue o que foi previsto do que foi descoberto. Este carrossel lista o que deve ser documentado antes da coleta e traz um prompt que identifica decisões analíticas ainda em aberto no seu projeto.",
+      "hashtags": [
+        "#preregistro",
+        "#metodologia",
+        "#cienciaaberta",
+        "#integridade",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisa"
+      ]
+    },
+    {
+      "id": "p24",
+      "published": false,
+      "tema": "Carta de apresentação ao periódico (cover letter)",
+      "slide1": {
+        "chapeu": "SUBMISSÃO",
+        "titulo": "A carta que o editor lê antes do seu artigo",
+        "promessa": "O que uma [[cover letter]] precisa provar nos [[primeiros parágrafos]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Carta que só repete o resumo",
+        "texto": "A maior parte das cartas recicla o resumo e não responde à pergunta que o editor realmente faz: por que este manuscrito interessa a esta revista, e não a qualquer outra. Sem isso, a triagem fica mais difícil de superar."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Estrutura enxuta",
+        "texto": "Uma página, quatro movimentos:",
+        "itens": [
+          "A contribuição central em uma frase, não o resumo inteiro",
+          "O encaixe explícito no escopo e no público da revista",
+          "As declarações obrigatórias: originalidade, conflito de interesse e aprovação ética"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar o escopo da revista e o resumo do meu artigo. Aponte onde o manuscrito dialoga com o escopo e onde se afasta dele. Liste as declarações obrigatórias que a carta precisa conter. Não redija a carta e não afirme encaixes que o escopo não sustenta."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A carta não [[resume]] o artigo: ela justifica a [[escolha da revista]]."
+      },
+      "slide6": {
+        "titulo": "Reescreva sua carta antes de submeter",
+        "texto": "Segue @letramento.ai para mais estratégia de publicação."
+      },
+      "reel": {
+        "gancho": "Sua cover letter só repete o resumo do artigo?",
+        "blocos": [
+          "O editor quer saber por que este manuscrito interessa a esta revista.",
+          "Uma página: contribuição, encaixe no escopo e declarações obrigatórias.",
+          "Repetir o resumo desperdiça o único espaço de argumentação que você tem."
+        ],
+        "cta": "O carrossel traz a estrutura e um prompt de checagem de escopo.",
+        "legendas_tela": [
+          "Carta ≠ resumo",
+          "4 movimentos",
+          "Encaixe no escopo"
+        ]
+      },
+      "legenda": "A carta de apresentação é lida antes do artigo e decide parte da triagem editorial. Este carrossel traz a estrutura em quatro movimentos e um prompt que confronta o seu resumo com o escopo da revista. Confira sempre as instruções específicas de cada periódico.",
+      "hashtags": [
+        "#coverletter",
+        "#publicacao",
+        "#periodicos",
+        "#escritaacademica",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#artigocientifico"
+      ]
+    },
+    {
+      "id": "p25",
+      "published": false,
+      "tema": "Escolha entre abordagem qualitativa, quantitativa e mista",
+      "slide1": {
+        "chapeu": "DELINEAMENTO",
+        "titulo": "A abordagem se escolhe pela pergunta, não pelo gosto",
+        "promessa": "Como deixar o [[problema de pesquisa]] decidir o [[delineamento]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Método escolhido por afinidade",
+        "texto": "Definir a abordagem por conforto com a ferramenta, e só depois ajustar a pergunta, inverte a lógica do projeto. A banca percebe a inversão quando os objetivos não podem ser respondidos pelos dados que você coletou."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Da pergunta ao desenho",
+        "texto": "O verbo do objetivo indica o caminho:",
+        "itens": [
+          "Mensurar, comparar e associar pedem dados quantitativos",
+          "Compreender, interpretar e descrever significados pedem dados qualitativos",
+          "Abordagem mista exige justificar a integração, não apenas somar as duas"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar meu problema de pesquisa e meus objetivos. Para cada objetivo, indique que tipo de dado seria necessário para respondê-lo e aponte os objetivos que não podem ser atingidos com a abordagem que declarei. Não escolha a abordagem por mim e não reescreva os objetivos."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Se o dado não responde ao [[objetivo]], o problema está no [[desenho]]."
+      },
+      "slide6": {
+        "titulo": "Confronte seus objetivos com seus dados",
+        "texto": "Segue @letramento.ai para mais delineamento de pesquisa."
+      },
+      "reel": {
+        "gancho": "Você escolheu o método antes de formular a pergunta?",
+        "blocos": [
+          "A abordagem decorre do problema, não da sua afinidade com a ferramenta.",
+          "Mensurar e comparar pedem quantitativo; compreender significados, qualitativo.",
+          "Misto não é soma: a integração precisa ser justificada."
+        ],
+        "cta": "O carrossel traz o mapa do objetivo ao desenho e um prompt de confronto.",
+        "legendas_tela": [
+          "Pergunta primeiro",
+          "O verbo indica",
+          "Misto exige integração"
+        ]
+      },
+      "legenda": "A abordagem metodológica é consequência do problema de pesquisa. Este carrossel mapeia os verbos dos objetivos aos tipos de dado correspondentes e traz um prompt que confronta seus objetivos com a abordagem declarada.",
+      "hashtags": [
+        "#metodologia",
+        "#qualitativo",
+        "#quantitativo",
+        "#metodosmistos",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisa"
+      ]
+    },
+    {
+      "id": "p26",
+      "published": false,
+      "tema": "Amostragem probabilística e não probabilística",
+      "slide1": {
+        "chapeu": "AMOSTRAGEM",
+        "titulo": "Até onde seus resultados podem ser generalizados?",
+        "promessa": "O que muda entre amostra [[probabilística]] e [[por conveniência]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Conveniência tratada como representativa",
+        "texto": "Coletar com quem estava disponível é uma decisão legítima, mas não autoriza falar em nome da população. O erro não está em usar conveniência: está em redigir a conclusão como se a amostra fosse aleatória."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Declarar o alcance",
+        "texto": "O que precisa constar no texto:",
+        "itens": [
+          "O tipo de amostragem e o procedimento efetivamente adotado",
+          "Os critérios de inclusão, exclusão e as perdas ocorridas ao longo da coleta",
+          "O limite explícito de generalização que decorre dessa escolha"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a seção de amostragem e as conclusões do meu estudo. Aponte as afirmações das conclusões que extrapolam o alcance permitido pelo tipo de amostra descrito. Para cada uma, indique a ressalva ausente. Não reescreva as conclusões."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "A amostra define o [[limite]] do que você pode [[afirmar]]."
+      },
+      "slide6": {
+        "titulo": "Alinhe conclusão e amostra",
+        "texto": "Segue @letramento.ai para mais rigor na análise."
+      },
+      "reel": {
+        "gancho": "Amostra por conveniência não fala em nome da população.",
+        "blocos": [
+          "Usar quem estava disponível é legítimo e comum.",
+          "O erro é redigir a conclusão como se a amostra fosse aleatória.",
+          "Declare o tipo, os critérios, as perdas e o limite de generalização."
+        ],
+        "cta": "O carrossel traz o que declarar e um prompt que detecta extrapolação.",
+        "legendas_tela": [
+          "Conveniência ≠ representativa",
+          "Declare o limite",
+          "Alcance da conclusão"
+        ]
+      },
+      "legenda": "O tipo de amostragem determina até onde a conclusão pode ir. Este carrossel lista o que precisa ser declarado na seção de método e traz um prompt que identifica afirmações extrapolando o alcance da amostra descrita.",
+      "hashtags": [
+        "#amostragem",
+        "#metodologia",
+        "#pesquisaquantitativa",
+        "#generalizacao",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#estatistica"
+      ]
+    },
+    {
+      "id": "p27",
+      "published": false,
+      "tema": "Confiabilidade de escalas e o alfa de Cronbach",
+      "slide1": {
+        "chapeu": "CONFIABILIDADE",
+        "titulo": "Alfa alto não significa escala boa",
+        "promessa": "O que o [[alfa de Cronbach]] mede, e o que ele [[não]] mede."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Alfa confundido com validade",
+        "texto": "O alfa estima consistência interna, isto é, o quanto os itens variam juntos. Ele não informa se a escala mede o construto pretendido, e tende a subir só porque o instrumento tem muitos itens parecidos entre si."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Reportar com contexto",
+        "texto": "O relato mínimo de confiabilidade:",
+        "itens": [
+          "O alfa calculado na sua amostra, não apenas o da escala original",
+          "O número de itens por dimensão, já que o alfa é sensível à quantidade",
+          "A dimensionalidade avaliada antes de interpretar qualquer coeficiente"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a seção de resultados do meu instrumento. Verifique se o relato de confiabilidade informa o alfa obtido na amostra do estudo, o número de itens por dimensão e a dimensionalidade avaliada. Liste o que está ausente. Não calcule coeficientes e não interprete dados que eu não forneci."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Consistência interna não é [[validade]]: são evidências [[distintas]]."
+      },
+      "slide6": {
+        "titulo": "Revise seu relato de confiabilidade",
+        "texto": "Segue @letramento.ai para mais estatística aplicada à pesquisa."
+      },
+      "reel": {
+        "gancho": "Alfa de Cronbach alto não quer dizer que a escala é boa.",
+        "blocos": [
+          "Ele estima consistência interna, não validade do construto.",
+          "E sobe quando o instrumento tem muitos itens parecidos.",
+          "Relate o alfa da sua amostra, os itens por dimensão e a dimensionalidade."
+        ],
+        "cta": "O carrossel traz o relato mínimo e um prompt de checagem.",
+        "legendas_tela": [
+          "Alfa ≠ validade",
+          "Sensível ao nº de itens",
+          "Relate o contexto"
+        ]
+      },
+      "legenda": "O alfa de Cronbach é reportado com frequência e interpretado com imprecisão. Este carrossel distingue consistência interna de validade e traz um prompt que checa se o seu relato de confiabilidade contém as informações mínimas. Consulte a literatura psicométrica da sua área para os critérios aplicáveis.",
+      "hashtags": [
+        "#cronbach",
+        "#confiabilidade",
+        "#psicometria",
+        "#estatistica",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#metodologia"
+      ]
+    },
+    {
+      "id": "p28",
+      "published": false,
+      "tema": "Interpretação do valor-p em testes de hipótese",
+      "slide1": {
+        "chapeu": "ESTATÍSTICA",
+        "titulo": "O valor-p não diz que sua hipótese é verdadeira",
+        "promessa": "O que o [[p]] realmente informa, e os [[erros]] mais frequentes de leitura."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Significância virou prova",
+        "texto": "O valor-p é a probabilidade de observar um resultado tão extremo quanto o obtido, supondo verdadeira a hipótese nula. Ele não é a probabilidade de a hipótese nula ser verdadeira, nem mede a magnitude do efeito encontrado."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Relato responsável",
+        "texto": "Ao reportar um teste:",
+        "itens": [
+          "Informe o valor-p exato, em vez de apenas indicar se ficou abaixo do limiar",
+          "Acompanhe sempre de tamanho de efeito e intervalo de confiança",
+          "Não transforme um resultado não significativo em prova de ausência de efeito"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a discussão dos meus resultados. Identifique as frases que interpretam o valor-p como probabilidade de a hipótese ser verdadeira, como medida de magnitude do efeito ou como prova de ausência de efeito. Aponte cada ocorrência sem reescrever o texto."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Ausência de significância não é [[evidência]] de ausência de [[efeito]]."
+      },
+      "slide6": {
+        "titulo": "Revise como você lê seus testes",
+        "texto": "Segue @letramento.ai para mais leitura crítica de dados."
+      },
+      "reel": {
+        "gancho": "O valor-p não informa a probabilidade de a sua hipótese ser verdadeira.",
+        "blocos": [
+          "Ele supõe a hipótese nula verdadeira e mede o quão extremo é o resultado.",
+          "Não mede magnitude e não prova ausência de efeito.",
+          "Reporte o p exato, com tamanho de efeito e intervalo de confiança."
+        ],
+        "cta": "O carrossel traz o relato responsável e um prompt que caça interpretações erradas.",
+        "legendas_tela": [
+          "p ≠ probabilidade da hipótese",
+          "p ≠ magnitude",
+          "Reporte o efeito"
+        ]
+      },
+      "legenda": "O valor-p é o número mais citado e mais mal interpretado da pesquisa quantitativa. Este carrossel separa o que ele informa do que não informa e traz um prompt que identifica interpretações equivocadas na discussão dos seus resultados.",
+      "hashtags": [
+        "#valorp",
+        "#estatistica",
+        "#testedehipotese",
+        "#pesquisaquantitativa",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#metodologia"
+      ]
+    },
+    {
+      "id": "p29",
+      "published": false,
+      "tema": "Tamanho de efeito e poder estatístico",
+      "slide1": {
+        "chapeu": "ESTATÍSTICA",
+        "titulo": "Significativo e irrelevante ao mesmo tempo",
+        "promessa": "Por que [[tamanho de efeito]] e [[poder]] decidem o que o seu estudo consegue detectar."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Amostra definida no improviso",
+        "texto": "Amostras muito grandes tornam significativas diferenças pequenas demais para importar na prática. Amostras pequenas demais deixam de detectar efeitos reais. Nos dois casos, o problema foi decidido antes da coleta."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Planejar antes de coletar",
+        "texto": "O cálculo amostral depende de quatro elementos:",
+        "itens": [
+          "O menor efeito que seria relevante na prática, não o efeito esperado",
+          "O nível de significância e o poder adotados, ambos declarados no texto",
+          "A variabilidade estimada a partir da literatura ou de um estudo-piloto"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a seção de método do meu estudo. Verifique se ela declara o menor efeito considerado relevante, o nível de significância, o poder adotado e a origem da variabilidade estimada. Liste o que está ausente. Não calcule tamanho amostral e não arbitre valores."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Relevância [[prática]] e significância [[estatística]] não são a mesma coisa."
+      },
+      "slide6": {
+        "titulo": "Planeje a amostra antes do campo",
+        "texto": "Segue @letramento.ai para mais planejamento de pesquisa."
+      },
+      "reel": {
+        "gancho": "Um resultado pode ser significativo e, ainda assim, irrelevante.",
+        "blocos": [
+          "Amostra muito grande torna significativa qualquer diferença mínima.",
+          "Amostra pequena demais não detecta efeitos que existem.",
+          "O cálculo amostral parte do menor efeito que importaria na prática."
+        ],
+        "cta": "O carrossel traz os quatro elementos do cálculo e um prompt de checagem.",
+        "legendas_tela": [
+          "Significativo ≠ relevante",
+          "4 elementos",
+          "Planeje antes"
+        ]
+      },
+      "legenda": "Tamanho de efeito e poder estatístico determinam o que o seu estudo é capaz de detectar, e ambos precisam ser decididos antes da coleta. Este carrossel apresenta os quatro elementos do cálculo amostral e um prompt que checa o que falta declarar no seu método.",
+      "hashtags": [
+        "#tamanhodeefeito",
+        "#poderestatistico",
+        "#amostra",
+        "#estatistica",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#metodologia"
+      ]
+    },
+    {
+      "id": "p30",
+      "published": false,
+      "tema": "Dados de pesquisa abertos e princípios FAIR",
+      "slide1": {
+        "chapeu": "DADOS",
+        "titulo": "Seus dados sobrevivem ao fim da pesquisa?",
+        "promessa": "O que os princípios [[FAIR]] exigem de quem [[publica dados]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Planilha sem documentação",
+        "texto": "Dados depositados sem dicionário de variáveis, sem descrição da coleta e sem licença de uso são praticamente inutilizáveis por terceiros. E cada vez mais agências e periódicos cobram o depósito como condição de financiamento ou publicação."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "O mínimo para reuso",
+        "texto": "Antes de depositar o conjunto de dados:",
+        "itens": [
+          "Dicionário de variáveis com nome, tipo, unidade e valores admitidos",
+          "Descrição do procedimento de coleta e do tratamento já aplicado",
+          "Licença de uso explícita e identificador persistente, como um DOI"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar o cabeçalho e a descrição do meu conjunto de dados. Aponte as variáveis sem definição clara, sem unidade ou com codificação ambígua, e liste os metadados ausentes para que outro pesquisador consiga reutilizar o conjunto. Não invente definições."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Dado sem [[metadado]] não é dado aberto: é arquivo [[órfão]]."
+      },
+      "slide6": {
+        "titulo": "Documente antes de depositar",
+        "texto": "Segue @letramento.ai para mais ciência aberta na prática."
+      },
+      "reel": {
+        "gancho": "Planilha sem dicionário de variáveis não é dado aberto.",
+        "blocos": [
+          "Sem definição, unidade e licença, ninguém reutiliza o conjunto.",
+          "Agências e periódicos já cobram depósito documentado.",
+          "O mínimo: dicionário, descrição da coleta, licença e identificador persistente."
+        ],
+        "cta": "O carrossel traz o checklist e um prompt que encontra metadados ausentes.",
+        "legendas_tela": [
+          "Dado ≠ planilha",
+          "Dicionário obrigatório",
+          "DOI e licença"
+        ]
+      },
+      "legenda": "Compartilhar dados exige documentá-los. Este carrossel traz o mínimo necessário para que um conjunto de dados seja reutilizável segundo os princípios FAIR, além de um prompt que identifica variáveis ambíguas e metadados ausentes. Verifique as políticas da sua instituição e da agência financiadora.",
+      "hashtags": [
+        "#dadosabertos",
+        "#FAIR",
+        "#cienciaaberta",
+        "#gestaodedados",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#pesquisa"
+      ]
+    },
+    {
+      "id": "p31",
+      "published": false,
+      "tema": "Formatação de trabalhos acadêmicos pela ABNT NBR 14724",
+      "slide1": {
+        "chapeu": "NORMAS ABNT",
+        "titulo": "A formatação que trava o depósito da sua dissertação",
+        "promessa": "Os elementos que a [[NBR 14724]] torna [[obrigatórios]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Norma conferida no último dia",
+        "texto": "Margens, paginação e ordem dos elementos pré-textuais costumam ser tratados como detalhe estético. Na secretaria, viram motivo de devolução, e o ajuste de última hora desorganiza sumário, listas e numeração automática."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Conferência estruturada",
+        "texto": "Pontos que concentram devolução:",
+        "itens": [
+          "Ordem dos elementos pré-textuais e quais deles são obrigatórios",
+          "Contagem de páginas desde a folha de rosto, com numeração visível só a partir da introdução",
+          "Sumário gerado automaticamente e coerente com os títulos do texto"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar a lista dos elementos pré-textuais do meu trabalho, na ordem em que aparecem. Compare com a sequência prevista pela ABNT NBR 14724 e aponte elementos ausentes, fora de ordem ou indevidos. Não afirme regras de formatação que eu não tenha fornecido e sinalize quando a exigência variar por instituição."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "O regulamento do seu [[programa]] prevalece sobre qualquer [[tutorial]]."
+      },
+      "slide6": {
+        "titulo": "Confira a norma antes do depósito",
+        "texto": "Segue @letramento.ai para mais normalização acadêmica."
+      },
+      "reel": {
+        "gancho": "Formatação errada devolve dissertação na secretaria.",
+        "blocos": [
+          "Ordem dos pré-textuais, paginação e sumário concentram as devoluções.",
+          "A contagem começa na folha de rosto, mas o número só aparece na introdução.",
+          "E o regulamento do programa prevalece sobre qualquer tutorial."
+        ],
+        "cta": "O carrossel traz os pontos críticos e um prompt de conferência.",
+        "legendas_tela": [
+          "NBR 14724",
+          "Pré-textuais em ordem",
+          "Regulamento primeiro"
+        ]
+      },
+      "legenda": "A ABNT NBR 14724 trata da apresentação de trabalhos acadêmicos e é responsável por boa parte das devoluções no depósito. Este carrossel reúne os pontos que mais geram ajuste e um prompt de conferência dos elementos pré-textuais. O regulamento do seu programa sempre prevalece.",
+      "hashtags": [
+        "#ABNT",
+        "#NBR14724",
+        "#dissertacao",
+        "#normalizacao",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#tcc"
+      ]
+    },
+    {
+      "id": "p32",
+      "published": false,
+      "tema": "Como identificar periódicos predatórios",
+      "slide1": {
+        "chapeu": "PUBLICAÇÃO",
+        "titulo": "O convite que chegou no seu e-mail hoje",
+        "promessa": "Os sinais que distinguem revista [[predatória]] de periódico [[legítimo]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Rapidez confundida com eficiência",
+        "texto": "Promessa de aceite em poucos dias, convite personalizado elogiando um artigo seu e cobrança informada apenas após a aprovação são indícios recorrentes. Publicar nesses veículos custa dinheiro e compromete o currículo."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Verificação antes de submeter",
+        "texto": "Checagens que levam poucos minutos:",
+        "itens": [
+          "Corpo editorial com vínculos institucionais verificáveis e ativos",
+          "Indexação confirmada nas próprias bases, não apenas declarada no site",
+          "Taxas, política de revisão por pares e prazos informados de forma transparente"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar o texto de um convite de submissão e o endereço do periódico. Liste os elementos do convite que correspondem a práticas predatórias conhecidas e as verificações que eu preciso fazer por conta própria. Não afirme se a revista é ou não legítima."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Periódico sério não faz [[propaganda]] prometendo [[aceite rápido]]."
+      },
+      "slide6": {
+        "titulo": "Verifique antes de submeter",
+        "texto": "Segue @letramento.ai para mais estratégia de publicação."
+      },
+      "reel": {
+        "gancho": "Recebeu um convite elogiando seu artigo e prometendo aceite em dias?",
+        "blocos": [
+          "Convite personalizado e aceite relâmpago são sinais recorrentes.",
+          "A cobrança costuma aparecer só depois da aprovação.",
+          "Verifique corpo editorial, indexação nas bases e transparência das taxas."
+        ],
+        "cta": "O carrossel traz os sinais e um prompt de triagem do convite.",
+        "legendas_tela": [
+          "Aceite rápido = alerta",
+          "Cheque a indexação",
+          "Verifique o corpo editorial"
+        ]
+      },
+      "legenda": "Convites de submissão com promessa de aceite imediato circulam todos os dias nas caixas de entrada acadêmicas. Este carrossel reúne os sinais de alerta e as verificações que levam poucos minutos, além de um prompt para triar o convite antes de responder.",
+      "hashtags": [
+        "#periodicospredatorios",
+        "#publicacao",
+        "#qualis",
+        "#integridade",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#artigocientifico"
+      ]
+    },
+    {
+      "id": "p33",
+      "published": false,
+      "tema": "Critérios de autoria e ordem dos autores",
+      "slide1": {
+        "chapeu": "AUTORIA",
+        "titulo": "Quem assina o artigo, e por quê",
+        "promessa": "Os critérios que separam [[autoria]] de [[agradecimento]]."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Autoria distribuída por cortesia",
+        "texto": "Incluir quem apenas financiou, cedeu o laboratório ou chefia o grupo é prática disseminada e problemática. Autoria implica responsabilidade pública pelo conteúdo, e isso não se transfere por gentileza ou hierarquia."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Combinar antes de escrever",
+        "texto": "O que deve ser acordado no início:",
+        "itens": [
+          "Quais contribuições serão consideradas suficientes para a autoria",
+          "A ordem dos nomes e o critério adotado para defini-la",
+          "O que será registrado como agradecimento em vez de autoria"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou descrever a contribuição de cada pessoa envolvida no artigo. Organize essas contribuições em uma declaração de contribuição por autor e aponte os casos em que a participação descrita não corresponde aos critérios usuais de autoria. Não decida a ordem dos nomes por mim."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Autoria é [[responsabilidade]] pelo conteúdo, não [[cortesia]] profissional."
+      },
+      "slide6": {
+        "titulo": "Combine a autoria antes de escrever",
+        "texto": "Segue @letramento.ai para mais integridade em pesquisa."
+      },
+      "reel": {
+        "gancho": "Quem financiou o estudo não vira autor por isso.",
+        "blocos": [
+          "Autoria implica responsabilidade pública pelo conteúdo.",
+          "Ceder laboratório ou chefiar o grupo entra em agradecimentos.",
+          "Combine critérios e ordem dos nomes antes de começar a escrever."
+        ],
+        "cta": "O carrossel traz o que acordar e um prompt de declaração de contribuição.",
+        "legendas_tela": [
+          "Autoria ≠ cortesia",
+          "Combine antes",
+          "Declare a contribuição"
+        ]
+      },
+      "legenda": "Conflitos de autoria aparecem quase sempre no fim, quando o artigo já está pronto. Este carrossel trata dos critérios que distinguem autoria de agradecimento e traz um prompt que organiza as contribuições de cada participante. Consulte as diretrizes adotadas pela sua área e pelo periódico.",
+      "hashtags": [
+        "#autoria",
+        "#integridade",
+        "#publicacao",
+        "#eticaempesquisa",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#artigocientifico"
+      ]
+    },
+    {
+      "id": "p34",
+      "published": false,
+      "tema": "Memorando analítico e diário de pesquisa",
+      "slide1": {
+        "chapeu": "PESQUISA QUALITATIVA",
+        "titulo": "Onde fica o registro de como você decidiu?",
+        "promessa": "Como o [[memorando analítico]] sustenta a [[auditabilidade]] da sua análise."
+      },
+      "slide2": {
+        "chapeu": "O PONTO CEGO",
+        "titulo": "Categoria sem rastro de origem",
+        "texto": "Quando a banca pergunta por que determinada categoria surgiu e foi mantida, não basta apresentar o resultado final. Sem registro datado das decisões, o percurso analítico não pode ser reconstituído nem por você."
+      },
+      "slide3": {
+        "chapeu": "MÉTODO",
+        "titulo": "Registrar durante, não depois",
+        "texto": "O que cada memorando deve conter:",
+        "itens": [
+          "Data, material analisado e a decisão tomada naquele momento",
+          "A justificativa da decisão e as alternativas que foram descartadas",
+          "As dúvidas em aberto, para retomada na etapa seguinte"
+        ]
+      },
+      "slide4": {
+        "chapeu": "PROMPT",
+        "titulo": "Comando pronto",
+        "prompt": "Vou colar meus memorandos analíticos em ordem cronológica. Identifique as decisões de categorização que mudaram ao longo do tempo sem justificativa registrada e as categorias cuja origem não aparece em nenhum memorando. Não crie justificativas."
+      },
+      "slide5": {
+        "chapeu": "REGRA DE OURO",
+        "frase": "Análise qualitativa se defende pelo [[percurso]], não apenas pelo [[resultado]]."
+      },
+      "slide6": {
+        "titulo": "Comece o memorando hoje",
+        "texto": "Segue @letramento.ai para mais rigor em pesquisa qualitativa."
+      },
+      "reel": {
+        "gancho": "A banca vai perguntar de onde veio essa categoria.",
+        "blocos": [
+          "Mostrar só o resultado final não responde à pergunta.",
+          "O memorando registra data, decisão, justificativa e alternativa descartada.",
+          "Sem ele, nem você consegue reconstituir o percurso depois."
+        ],
+        "cta": "O carrossel traz a estrutura do memorando e um prompt de auditoria.",
+        "legendas_tela": [
+          "Registre durante",
+          "Data e justificativa",
+          "Percurso auditável"
+        ]
+      },
+      "legenda": "O memorando analítico é o que torna uma análise qualitativa auditável. Este carrossel apresenta o que registrar a cada decisão de categorização e traz um prompt que identifica mudanças sem justificativa e categorias sem origem documentada.",
+      "hashtags": [
+        "#pesquisaqualitativa",
+        "#memorando",
+        "#analisequalitativa",
+        "#metodologia",
+        "#mestrado",
+        "#doutorado",
+        "#letramentoemia",
+        "#codificacao"
+      ]
     }
   ]
 }

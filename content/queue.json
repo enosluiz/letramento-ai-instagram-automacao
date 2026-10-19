@@ -1294,7 +1294,7 @@
     },
     {
       "id": "p21",
-      "published": false,
+      "published": true,
       "tema": "Gestão de referências com Zotero e verificação de metadados",
       "slide1": {
         "chapeu": "FERRAMENTAS",
@@ -1353,7 +1353,9 @@
         "#doutorado",
         "#letramentoemia",
         "#escritaacademica"
-      ]
+      ],
+      "published_at": "2026-10-19T20:18:40.258Z",
+      "ig_media_id": "17915455383533513"
     },
     {
       "id": "p22",

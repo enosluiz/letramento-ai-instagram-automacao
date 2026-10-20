@@ -1359,7 +1359,7 @@
     },
     {
       "id": "p22",
-      "published": false,
+      "published": true,
       "tema": "Validação de instrumento por juízes e índice de validade de conteúdo",
       "slide1": {
         "chapeu": "INSTRUMENTOS",
@@ -1418,7 +1418,9 @@
         "#doutorado",
         "#letramentoemia",
         "#instrumento"
-      ]
+      ],
+      "published_at": "2026-10-20T16:41:36.204Z",
+      "ig_media_id": "18147851761605863"
     },
     {
       "id": "p23",

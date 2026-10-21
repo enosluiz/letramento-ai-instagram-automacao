@@ -1424,7 +1424,7 @@
     },
     {
       "id": "p23",
-      "published": false,
+      "published": true,
       "tema": "Pré-registro de estudo e transparência metodológica",
       "slide1": {
         "chapeu": "TRANSPARÊNCIA",
@@ -1483,7 +1483,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisa"
-      ]
+      ],
+      "published_at": "2026-10-21T17:00:15.485Z",
+      "ig_media_id": "17905455939666397"
     },
     {
       "id": "p24",

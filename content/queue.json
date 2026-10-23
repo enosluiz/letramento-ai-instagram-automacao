@@ -1554,7 +1554,7 @@
     },
     {
       "id": "p25",
-      "published": false,
+      "published": true,
       "tema": "Escolha entre abordagem qualitativa, quantitativa e mista",
       "slide1": {
         "chapeu": "DELINEAMENTO",
@@ -1613,7 +1613,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisa"
-      ]
+      ],
+      "published_at": "2026-10-23T17:00:04.606Z",
+      "ig_media_id": "18350265502264516"
     },
     {
       "id": "p26",

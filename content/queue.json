@@ -1619,7 +1619,7 @@
     },
     {
       "id": "p26",
-      "published": false,
+      "published": true,
       "tema": "Amostragem probabilística e não probabilística",
       "slide1": {
         "chapeu": "AMOSTRAGEM",
@@ -1678,7 +1678,9 @@
         "#doutorado",
         "#letramentoemia",
         "#estatistica"
-      ]
+      ],
+      "published_at": "2026-10-24T15:43:52.620Z",
+      "ig_media_id": "18147689224576972"
     },
     {
       "id": "p27",

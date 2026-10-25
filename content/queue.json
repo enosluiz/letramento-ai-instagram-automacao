@@ -1684,7 +1684,7 @@
     },
     {
       "id": "p27",
-      "published": false,
+      "published": true,
       "tema": "Confiabilidade de escalas e o alfa de Cronbach",
       "slide1": {
         "chapeu": "CONFIABILIDADE",
@@ -1743,7 +1743,9 @@
         "#doutorado",
         "#letramentoemia",
         "#metodologia"
-      ]
+      ],
+      "published_at": "2026-10-25T15:54:55.314Z",
+      "ig_media_id": "17876025633587870"
     },
     {
       "id": "p28",

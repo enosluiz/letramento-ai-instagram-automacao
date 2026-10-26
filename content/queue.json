@@ -1749,7 +1749,7 @@
     },
     {
       "id": "p28",
-      "published": false,
+      "published": true,
       "tema": "Interpretação do valor-p em testes de hipótese",
       "slide1": {
         "chapeu": "ESTATÍSTICA",
@@ -1808,7 +1808,9 @@
         "#doutorado",
         "#letramentoemia",
         "#metodologia"
-      ]
+      ],
+      "published_at": "2026-10-26T18:34:20.193Z",
+      "ig_media_id": "17903345961371778"
     },
     {
       "id": "p29",

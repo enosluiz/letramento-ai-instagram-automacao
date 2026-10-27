@@ -1814,7 +1814,7 @@
     },
     {
       "id": "p29",
-      "published": false,
+      "published": true,
       "tema": "Tamanho de efeito e poder estatístico",
       "slide1": {
         "chapeu": "ESTATÍSTICA",
@@ -1873,7 +1873,9 @@
         "#doutorado",
         "#letramentoemia",
         "#metodologia"
-      ]
+      ],
+      "published_at": "2026-10-27T17:50:37.599Z",
+      "ig_media_id": "18097286621673606"
     },
     {
       "id": "p30",

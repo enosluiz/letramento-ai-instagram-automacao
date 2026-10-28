@@ -1879,7 +1879,7 @@
     },
     {
       "id": "p30",
-      "published": false,
+      "published": true,
       "tema": "Dados de pesquisa abertos e princípios FAIR",
       "slide1": {
         "chapeu": "DADOS",
@@ -1938,7 +1938,9 @@
         "#doutorado",
         "#letramentoemia",
         "#pesquisa"
-      ]
+      ],
+      "published_at": "2026-10-28T18:14:32.510Z",
+      "ig_media_id": "17899755663397278"
     },
     {
       "id": "p31",

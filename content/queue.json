@@ -1944,7 +1944,7 @@
     },
     {
       "id": "p31",
-      "published": false,
+      "published": true,
       "tema": "Formatação de trabalhos acadêmicos pela ABNT NBR 14724",
       "slide1": {
         "chapeu": "NORMAS ABNT",
@@ -2003,7 +2003,9 @@
         "#doutorado",
         "#letramentoemia",
         "#tcc"
-      ]
+      ],
+      "published_at": "2026-10-29T18:19:48.994Z",
+      "ig_media_id": "18041920868833981"
     },
     {
       "id": "p32",

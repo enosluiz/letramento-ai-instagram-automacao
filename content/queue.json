@@ -2009,7 +2009,7 @@
     },
     {
       "id": "p32",
-      "published": false,
+      "published": true,
       "tema": "Como identificar periódicos predatórios",
       "slide1": {
         "chapeu": "PUBLICAÇÃO",
@@ -2068,7 +2068,9 @@
         "#doutorado",
         "#letramentoemia",
         "#artigocientifico"
-      ]
+      ],
+      "published_at": "2026-10-30T17:55:22.158Z",
+      "ig_media_id": "18121794433747059"
     },
     {
       "id": "p33",

@@ -2074,7 +2074,7 @@
     },
     {
       "id": "p33",
-      "published": false,
+      "published": true,
       "tema": "Critérios de autoria e ordem dos autores",
       "slide1": {
         "chapeu": "AUTORIA",
@@ -2133,7 +2133,9 @@
         "#doutorado",
         "#letramentoemia",
         "#artigocientifico"
-      ]
+      ],
+      "published_at": "2026-10-31T17:07:21.054Z",
+      "ig_media_id": "17910131187570178"
     },
     {
       "id": "p34",

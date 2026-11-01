@@ -2139,7 +2139,7 @@
     },
     {
       "id": "p34",
-      "published": false,
+      "published": true,
       "tema": "Memorando analítico e diário de pesquisa",
       "slide1": {
         "chapeu": "PESQUISA QUALITATIVA",
@@ -2198,7 +2198,9 @@
         "#doutorado",
         "#letramentoemia",
         "#codificacao"
-      ]
+      ],
+      "published_at": "2026-11-01T17:50:30.902Z",
+      "ig_media_id": "18024302135925734"
     }
   ]
 }
